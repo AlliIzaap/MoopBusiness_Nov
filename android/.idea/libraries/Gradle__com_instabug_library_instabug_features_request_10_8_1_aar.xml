@@ -1,0 +1,22 @@
+<component name="libraryTable">
+  <library name="Gradle: com.instabug.library:instabug-features-request:10.8.1@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/f5519a0dee273c66928b5240bb77e63f/transformed/jetified-instabug-features-request-10.8.1/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/830442ed8ec9d1593fb311b4a4326f3c/transformed/jetified-instabug-features-request-10.8.1/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/f5519a0dee273c66928b5240bb77e63f/transformed/jetified-instabug-features-request-10.8.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f5519a0dee273c66928b5240bb77e63f/transformed/jetified-instabug-features-request-10.8.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f5519a0dee273c66928b5240bb77e63f/transformed/jetified-instabug-features-request-10.8.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/830442ed8ec9d1593fb311b4a4326f3c/transformed/jetified-instabug-features-request-10.8.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/830442ed8ec9d1593fb311b4a4326f3c/transformed/jetified-instabug-features-request-10.8.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/830442ed8ec9d1593fb311b4a4326f3c/transformed/jetified-instabug-features-request-10.8.1/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.instabug.library/instabug-features-request/10.8.1/38e5a2d88cc36c8e5e5431e0dfeae4f8aded4de/instabug-features-request-10.8.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.instabug.library/instabug-features-request/10.8.1/38e5a2d88cc36c8e5e5431e0dfeae4f8aded4de/instabug-features-request-10.8.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

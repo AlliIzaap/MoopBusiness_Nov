@@ -1,0 +1,661 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.moopbusiness"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/administrator/Moop-Business-July/MoopBusiness/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Users/administrator/Moop-Business-July/MoopBusiness/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/administrator/Moop-Business-July/MoopBusiness/android/app/src/main/AndroidManifest.xml:4:5-67
+11-->/Users/administrator/Moop-Business-July/MoopBusiness/android/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.VIBRATE" />
+12-->/Users/administrator/Moop-Business-July/MoopBusiness/android/app/src/main/AndroidManifest.xml:5:5-66
+12-->/Users/administrator/Moop-Business-July/MoopBusiness/android/app/src/main/AndroidManifest.xml:5:22-63
+13    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+13-->/Users/administrator/Moop-Business-July/MoopBusiness/android/app/src/main/AndroidManifest.xml:6:5-80
+13-->/Users/administrator/Moop-Business-July/MoopBusiness/android/app/src/main/AndroidManifest.xml:6:22-78
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[:react-native-community_netinfo] /Users/administrator/Moop-Business-July/MoopBusiness/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-79
+14-->[:react-native-community_netinfo] /Users/administrator/Moop-Business-July/MoopBusiness/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-76
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+15-->[:react-native-community_netinfo] /Users/administrator/Moop-Business-July/MoopBusiness/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-76
+15-->[:react-native-community_netinfo] /Users/administrator/Moop-Business-July/MoopBusiness/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-73
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->[com.instabug.library:instabug-bug:10.8.1] /Users/administrator/.gradle/caches/transforms-3/42a68f473d9a638bb74f7ffb8cf1c88f/transformed/jetified-instabug-bug-10.8.1/AndroidManifest.xml:11:5-80
+16-->[com.instabug.library:instabug-bug:10.8.1] /Users/administrator/.gradle/caches/transforms-3/42a68f473d9a638bb74f7ffb8cf1c88f/transformed/jetified-instabug-bug-10.8.1/AndroidManifest.xml:11:22-77
+17    <uses-permission
+17-->[com.instabug.library:instabug-core:10.8.1] /Users/administrator/.gradle/caches/transforms-3/154120d1f95eb95caf2e8bf8de28a8e8/transformed/jetified-instabug-core-10.8.1/AndroidManifest.xml:11:5-13:38
+18        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+18-->[com.instabug.library:instabug-core:10.8.1] /Users/administrator/.gradle/caches/transforms-3/154120d1f95eb95caf2e8bf8de28a8e8/transformed/jetified-instabug-core-10.8.1/AndroidManifest.xml:12:9-65
+19        android:maxSdkVersion="28" />
+19-->[com.instabug.library:instabug-core:10.8.1] /Users/administrator/.gradle/caches/transforms-3/154120d1f95eb95caf2e8bf8de28a8e8/transformed/jetified-instabug-core-10.8.1/AndroidManifest.xml:13:9-35
+20    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+20-->[com.instabug.library:instabug-core:10.8.1] /Users/administrator/.gradle/caches/transforms-3/154120d1f95eb95caf2e8bf8de28a8e8/transformed/jetified-instabug-core-10.8.1/AndroidManifest.xml:16:5-71
+20-->[com.instabug.library:instabug-core:10.8.1] /Users/administrator/.gradle/caches/transforms-3/154120d1f95eb95caf2e8bf8de28a8e8/transformed/jetified-instabug-core-10.8.1/AndroidManifest.xml:16:22-68
+21    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+21-->[com.instabug.library:instabug-core:10.8.1] /Users/administrator/.gradle/caches/transforms-3/154120d1f95eb95caf2e8bf8de28a8e8/transformed/jetified-instabug-core-10.8.1/AndroidManifest.xml:17:5-80
+21-->[com.instabug.library:instabug-core:10.8.1] /Users/administrator/.gradle/caches/transforms-3/154120d1f95eb95caf2e8bf8de28a8e8/transformed/jetified-instabug-core-10.8.1/AndroidManifest.xml:17:22-77
+22    <uses-permission android:name="android.permission.WAKE_LOCK" />
+22-->[com.instabug.library:instabug-core:10.8.1] /Users/administrator/.gradle/caches/transforms-3/154120d1f95eb95caf2e8bf8de28a8e8/transformed/jetified-instabug-core-10.8.1/AndroidManifest.xml:19:5-68
+22-->[com.instabug.library:instabug-core:10.8.1] /Users/administrator/.gradle/caches/transforms-3/154120d1f95eb95caf2e8bf8de28a8e8/transformed/jetified-instabug-core-10.8.1/AndroidManifest.xml:19:22-65
+23    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+23-->[com.instabug.library:instabug-core:10.8.1] /Users/administrator/.gradle/caches/transforms-3/154120d1f95eb95caf2e8bf8de28a8e8/transformed/jetified-instabug-core-10.8.1/AndroidManifest.xml:20:5-77
+23-->[com.instabug.library:instabug-core:10.8.1] /Users/administrator/.gradle/caches/transforms-3/154120d1f95eb95caf2e8bf8de28a8e8/transformed/jetified-instabug-core-10.8.1/AndroidManifest.xml:20:22-74
+24    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+24-->[com.google.firebase:firebase-messaging:23.0.0] /Users/administrator/.gradle/caches/transforms-3/9e649fa2469458e125f1f52d22c5d9ea/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:25:5-82
+24-->[com.google.firebase:firebase-messaging:23.0.0] /Users/administrator/.gradle/caches/transforms-3/9e649fa2469458e125f1f52d22c5d9ea/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:25:22-79
+25    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Include required permissions for Advertising Id -->
+25-->[com.google.android.gms:play-services-measurement:20.0.1] /Users/administrator/.gradle/caches/transforms-3/fead6d30d4cdde48e4971910574ff5f9/transformed/jetified-play-services-measurement-20.0.1/AndroidManifest.xml:26:5-110
+25-->[com.google.android.gms:play-services-measurement:20.0.1] /Users/administrator/.gradle/caches/transforms-3/fead6d30d4cdde48e4971910574ff5f9/transformed/jetified-play-services-measurement-20.0.1/AndroidManifest.xml:26:22-107
+26    <uses-permission android:name="com.google.android.gms.permission.AD_ID" /> <!-- for android -->
+26-->[com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/administrator/.gradle/caches/transforms-3/ea202bc5124ce973aaf82b4339a70f5a/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+26-->[com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/administrator/.gradle/caches/transforms-3/ea202bc5124ce973aaf82b4339a70f5a/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:22-76
+27    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+28    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+29    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+30    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+31    <!-- for Samsung -->
+32    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+32-->[me.leolin:ShortcutBadger:1.1.22] /Users/administrator/.gradle/caches/transforms-3/337e79cdbc1f2cad06823f4a7c4d4f43/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
+32-->[me.leolin:ShortcutBadger:1.1.22] /Users/administrator/.gradle/caches/transforms-3/337e79cdbc1f2cad06823f4a7c4d4f43/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:22-83
+33    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+33-->[me.leolin:ShortcutBadger:1.1.22] /Users/administrator/.gradle/caches/transforms-3/337e79cdbc1f2cad06823f4a7c4d4f43/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
+33-->[me.leolin:ShortcutBadger:1.1.22] /Users/administrator/.gradle/caches/transforms-3/337e79cdbc1f2cad06823f4a7c4d4f43/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:22-84
+34    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+34-->[me.leolin:ShortcutBadger:1.1.22] /Users/administrator/.gradle/caches/transforms-3/337e79cdbc1f2cad06823f4a7c4d4f43/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
+34-->[me.leolin:ShortcutBadger:1.1.22] /Users/administrator/.gradle/caches/transforms-3/337e79cdbc1f2cad06823f4a7c4d4f43/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:22-78
+35    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+35-->[me.leolin:ShortcutBadger:1.1.22] /Users/administrator/.gradle/caches/transforms-3/337e79cdbc1f2cad06823f4a7c4d4f43/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
+35-->[me.leolin:ShortcutBadger:1.1.22] /Users/administrator/.gradle/caches/transforms-3/337e79cdbc1f2cad06823f4a7c4d4f43/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:22-80
+36    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+36-->[me.leolin:ShortcutBadger:1.1.22] /Users/administrator/.gradle/caches/transforms-3/337e79cdbc1f2cad06823f4a7c4d4f43/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
+36-->[me.leolin:ShortcutBadger:1.1.22] /Users/administrator/.gradle/caches/transforms-3/337e79cdbc1f2cad06823f4a7c4d4f43/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:22-85
+37    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+37-->[me.leolin:ShortcutBadger:1.1.22] /Users/administrator/.gradle/caches/transforms-3/337e79cdbc1f2cad06823f4a7c4d4f43/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
+37-->[me.leolin:ShortcutBadger:1.1.22] /Users/administrator/.gradle/caches/transforms-3/337e79cdbc1f2cad06823f4a7c4d4f43/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:22-89
+38    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+38-->[me.leolin:ShortcutBadger:1.1.22] /Users/administrator/.gradle/caches/transforms-3/337e79cdbc1f2cad06823f4a7c4d4f43/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
+38-->[me.leolin:ShortcutBadger:1.1.22] /Users/administrator/.gradle/caches/transforms-3/337e79cdbc1f2cad06823f4a7c4d4f43/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:22-81
+39    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+39-->[me.leolin:ShortcutBadger:1.1.22] /Users/administrator/.gradle/caches/transforms-3/337e79cdbc1f2cad06823f4a7c4d4f43/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
+39-->[me.leolin:ShortcutBadger:1.1.22] /Users/administrator/.gradle/caches/transforms-3/337e79cdbc1f2cad06823f4a7c4d4f43/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:22-80
+40    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+40-->[me.leolin:ShortcutBadger:1.1.22] /Users/administrator/.gradle/caches/transforms-3/337e79cdbc1f2cad06823f4a7c4d4f43/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
+40-->[me.leolin:ShortcutBadger:1.1.22] /Users/administrator/.gradle/caches/transforms-3/337e79cdbc1f2cad06823f4a7c4d4f43/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:22-88
+41    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+41-->[me.leolin:ShortcutBadger:1.1.22] /Users/administrator/.gradle/caches/transforms-3/337e79cdbc1f2cad06823f4a7c4d4f43/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
+41-->[me.leolin:ShortcutBadger:1.1.22] /Users/administrator/.gradle/caches/transforms-3/337e79cdbc1f2cad06823f4a7c4d4f43/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:22-89
+42    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+42-->[me.leolin:ShortcutBadger:1.1.22] /Users/administrator/.gradle/caches/transforms-3/337e79cdbc1f2cad06823f4a7c4d4f43/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
+42-->[me.leolin:ShortcutBadger:1.1.22] /Users/administrator/.gradle/caches/transforms-3/337e79cdbc1f2cad06823f4a7c4d4f43/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:22-90
+43    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+43-->[me.leolin:ShortcutBadger:1.1.22] /Users/administrator/.gradle/caches/transforms-3/337e79cdbc1f2cad06823f4a7c4d4f43/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
+43-->[me.leolin:ShortcutBadger:1.1.22] /Users/administrator/.gradle/caches/transforms-3/337e79cdbc1f2cad06823f4a7c4d4f43/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:22-70
+44    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+44-->[me.leolin:ShortcutBadger:1.1.22] /Users/administrator/.gradle/caches/transforms-3/337e79cdbc1f2cad06823f4a7c4d4f43/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
+44-->[me.leolin:ShortcutBadger:1.1.22] /Users/administrator/.gradle/caches/transforms-3/337e79cdbc1f2cad06823f4a7c4d4f43/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:22-79
+45    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+45-->[me.leolin:ShortcutBadger:1.1.22] /Users/administrator/.gradle/caches/transforms-3/337e79cdbc1f2cad06823f4a7c4d4f43/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
+45-->[me.leolin:ShortcutBadger:1.1.22] /Users/administrator/.gradle/caches/transforms-3/337e79cdbc1f2cad06823f4a7c4d4f43/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:22-80
+46    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+46-->[me.leolin:ShortcutBadger:1.1.22] /Users/administrator/.gradle/caches/transforms-3/337e79cdbc1f2cad06823f4a7c4d4f43/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
+46-->[me.leolin:ShortcutBadger:1.1.22] /Users/administrator/.gradle/caches/transforms-3/337e79cdbc1f2cad06823f4a7c4d4f43/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:22-85
+47    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+47-->[me.leolin:ShortcutBadger:1.1.22] /Users/administrator/.gradle/caches/transforms-3/337e79cdbc1f2cad06823f4a7c4d4f43/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
+47-->[me.leolin:ShortcutBadger:1.1.22] /Users/administrator/.gradle/caches/transforms-3/337e79cdbc1f2cad06823f4a7c4d4f43/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86
+48
+49    <application
+49-->/Users/administrator/Moop-Business-July/MoopBusiness/android/app/src/main/AndroidManifest.xml:9:5-54:19
+50        android:name="com.moopbusiness.MainApplication"
+50-->/Users/administrator/Moop-Business-July/MoopBusiness/android/app/src/main/AndroidManifest.xml:10:7-38
+51        android:allowBackup="false"
+51-->/Users/administrator/Moop-Business-July/MoopBusiness/android/app/src/main/AndroidManifest.xml:14:7-34
+52        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+52-->[androidx.core:core:1.3.2] /Users/administrator/.gradle/caches/transforms-3/2554db13a3e4385c8a8b432692b7d598/transformed/core-1.3.2/AndroidManifest.xml:24:18-86
+53        android:icon="@mipmap/ic_launcher"
+53-->/Users/administrator/Moop-Business-July/MoopBusiness/android/app/src/main/AndroidManifest.xml:12:7-41
+54        android:label="@string/app_name"
+54-->/Users/administrator/Moop-Business-July/MoopBusiness/android/app/src/main/AndroidManifest.xml:11:7-39
+55        android:roundIcon="@mipmap/ic_launcher_round"
+55-->/Users/administrator/Moop-Business-July/MoopBusiness/android/app/src/main/AndroidManifest.xml:13:7-52
+56        android:theme="@style/AppTheme"
+56-->/Users/administrator/Moop-Business-July/MoopBusiness/android/app/src/main/AndroidManifest.xml:17:7-38
+57        android:usesCleartextTraffic="true" >
+57-->/Users/administrator/Moop-Business-July/MoopBusiness/android/app/src/main/AndroidManifest.xml:15:7-42
+58        <activity
+58-->/Users/administrator/Moop-Business-July/MoopBusiness/android/app/src/main/AndroidManifest.xml:18:7-28:18
+59            android:name="com.moopbusiness.MainActivity"
+59-->/Users/administrator/Moop-Business-July/MoopBusiness/android/app/src/main/AndroidManifest.xml:19:9-37
+60            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+60-->/Users/administrator/Moop-Business-July/MoopBusiness/android/app/src/main/AndroidManifest.xml:21:9-86
+61            android:label="@string/app_name"
+61-->/Users/administrator/Moop-Business-July/MoopBusiness/android/app/src/main/AndroidManifest.xml:20:9-41
+62            android:launchMode="singleTask"
+62-->/Users/administrator/Moop-Business-July/MoopBusiness/android/app/src/main/AndroidManifest.xml:22:9-40
+63            android:windowSoftInputMode="adjustResize" >
+63-->/Users/administrator/Moop-Business-July/MoopBusiness/android/app/src/main/AndroidManifest.xml:23:9-51
+64            <intent-filter>
+64-->/Users/administrator/Moop-Business-July/MoopBusiness/android/app/src/main/AndroidManifest.xml:24:9-27:25
+65                <action android:name="android.intent.action.MAIN" />
+65-->/Users/administrator/Moop-Business-July/MoopBusiness/android/app/src/main/AndroidManifest.xml:25:13-65
+65-->/Users/administrator/Moop-Business-July/MoopBusiness/android/app/src/main/AndroidManifest.xml:25:21-62
+66
+67                <category android:name="android.intent.category.LAUNCHER" />
+67-->/Users/administrator/Moop-Business-July/MoopBusiness/android/app/src/main/AndroidManifest.xml:26:13-73
+67-->/Users/administrator/Moop-Business-July/MoopBusiness/android/app/src/main/AndroidManifest.xml:26:23-70
+68            </intent-filter>
+69        </activity>
+70
+71        <meta-data
+71-->/Users/administrator/Moop-Business-July/MoopBusiness/android/app/src/main/AndroidManifest.xml:30:8-31:44
+72            android:name="com.dieam.reactnativepushnotification.notification_foreground"
+72-->/Users/administrator/Moop-Business-July/MoopBusiness/android/app/src/main/AndroidManifest.xml:30:20-96
+73            android:value="false" />
+73-->/Users/administrator/Moop-Business-July/MoopBusiness/android/app/src/main/AndroidManifest.xml:31:21-42
+74        <!-- Change the resource name to your App's accent color - or any other color you want -->
+75        <meta-data
+75-->/Users/administrator/Moop-Business-July/MoopBusiness/android/app/src/main/AndroidManifest.xml:33:9-34:54
+76            android:name="com.dieam.reactnativepushnotification.notification_color"
+76-->/Users/administrator/Moop-Business-July/MoopBusiness/android/app/src/main/AndroidManifest.xml:33:21-92
+77            android:resource="@color/white" /> <!-- or @android:color/{name} to use a standard color -->
+77-->/Users/administrator/Moop-Business-July/MoopBusiness/android/app/src/main/AndroidManifest.xml:34:21-52
+78
+79        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationActions" />
+79-->/Users/administrator/Moop-Business-July/MoopBusiness/android/app/src/main/AndroidManifest.xml:36:9-108
+79-->/Users/administrator/Moop-Business-July/MoopBusiness/android/app/src/main/AndroidManifest.xml:36:19-105
+80        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationPublisher" />
+80-->/Users/administrator/Moop-Business-July/MoopBusiness/android/app/src/main/AndroidManifest.xml:37:9-110
+80-->/Users/administrator/Moop-Business-July/MoopBusiness/android/app/src/main/AndroidManifest.xml:37:19-107
+81        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationBootEventReceiver" >
+81-->/Users/administrator/Moop-Business-July/MoopBusiness/android/app/src/main/AndroidManifest.xml:38:9-44:20
+81-->/Users/administrator/Moop-Business-July/MoopBusiness/android/app/src/main/AndroidManifest.xml:38:19-115
+82            <intent-filter>
+82-->/Users/administrator/Moop-Business-July/MoopBusiness/android/app/src/main/AndroidManifest.xml:39:13-43:29
+83                <action android:name="android.intent.action.BOOT_COMPLETED" />
+83-->/Users/administrator/Moop-Business-July/MoopBusiness/android/app/src/main/AndroidManifest.xml:40:17-79
+83-->/Users/administrator/Moop-Business-July/MoopBusiness/android/app/src/main/AndroidManifest.xml:40:25-76
+84                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+84-->/Users/administrator/Moop-Business-July/MoopBusiness/android/app/src/main/AndroidManifest.xml:41:17-82
+84-->/Users/administrator/Moop-Business-July/MoopBusiness/android/app/src/main/AndroidManifest.xml:41:25-79
+85                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+85-->/Users/administrator/Moop-Business-July/MoopBusiness/android/app/src/main/AndroidManifest.xml:42:17-81
+85-->/Users/administrator/Moop-Business-July/MoopBusiness/android/app/src/main/AndroidManifest.xml:42:25-79
+86            </intent-filter>
+87        </receiver>
+88
+89        <service
+89-->/Users/administrator/Moop-Business-July/MoopBusiness/android/app/src/main/AndroidManifest.xml:46:9-52:19
+90            android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationListenerService"
+90-->/Users/administrator/Moop-Business-July/MoopBusiness/android/app/src/main/AndroidManifest.xml:47:13-107
+91            android:exported="false" >
+91-->/Users/administrator/Moop-Business-July/MoopBusiness/android/app/src/main/AndroidManifest.xml:48:13-37
+92            <intent-filter>
+92-->/Users/administrator/Moop-Business-July/MoopBusiness/android/app/src/main/AndroidManifest.xml:49:13-51:29
+93                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+93-->/Users/administrator/Moop-Business-July/MoopBusiness/android/app/src/main/AndroidManifest.xml:50:17-78
+93-->/Users/administrator/Moop-Business-July/MoopBusiness/android/app/src/main/AndroidManifest.xml:50:25-75
+94            </intent-filter>
+95        </service>
+96
+97        <meta-data
+97-->[:react-native-firebase_app] /Users/administrator/Moop-Business-July/MoopBusiness/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-12:36
+98            android:name="app_data_collection_default_enabled"
+98-->[:react-native-firebase_app] /Users/administrator/Moop-Business-July/MoopBusiness/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-63
+99            android:value="true" />
+99-->[:react-native-firebase_app] /Users/administrator/Moop-Business-July/MoopBusiness/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-33
+100
+101        <service
+101-->[:react-native-firebase_app] /Users/administrator/Moop-Business-July/MoopBusiness/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:9-18:19
+102            android:name="com.google.firebase.components.ComponentDiscoveryService"
+102-->[:react-native-firebase_app] /Users/administrator/Moop-Business-July/MoopBusiness/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:18-89
+103            android:directBootAware="true"
+103-->[com.google.firebase:firebase-common:20.0.0] /Users/administrator/.gradle/caches/transforms-3/dfc172e13ac61f3210434dcbcf410699/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+104            android:exported="false" >
+104-->[com.google.firebase:firebase-messaging:23.0.0] /Users/administrator/.gradle/caches/transforms-3/9e649fa2469458e125f1f52d22c5d9ea/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:51:13-37
+105            <meta-data
+105-->[:react-native-firebase_app] /Users/administrator/Moop-Business-July/MoopBusiness/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-17:85
+106                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+106-->[:react-native-firebase_app] /Users/administrator/Moop-Business-July/MoopBusiness/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:17-120
+107                android:value="com.google.firebase.components.ComponentRegistrar" />
+107-->[:react-native-firebase_app] /Users/administrator/Moop-Business-July/MoopBusiness/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-82
+108            <meta-data
+108-->[com.google.firebase:firebase-messaging:23.0.0] /Users/administrator/.gradle/caches/transforms-3/9e649fa2469458e125f1f52d22c5d9ea/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:52:13-54:85
+109                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+109-->[com.google.firebase:firebase-messaging:23.0.0] /Users/administrator/.gradle/caches/transforms-3/9e649fa2469458e125f1f52d22c5d9ea/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:53:17-119
+110                android:value="com.google.firebase.components.ComponentRegistrar" />
+110-->[com.google.firebase:firebase-messaging:23.0.0] /Users/administrator/.gradle/caches/transforms-3/9e649fa2469458e125f1f52d22c5d9ea/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:54:17-82
+111            <meta-data
+111-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/administrator/.gradle/caches/transforms-3/f3fe407eee430310c06bd6258ec434c8/transformed/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:28:13-30:85
+112                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+112-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/administrator/.gradle/caches/transforms-3/f3fe407eee430310c06bd6258ec434c8/transformed/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:29:17-115
+113                android:value="com.google.firebase.components.ComponentRegistrar" />
+113-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/administrator/.gradle/caches/transforms-3/f3fe407eee430310c06bd6258ec434c8/transformed/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:30:17-82
+114            <meta-data
+114-->[com.google.android.gms:play-services-measurement-api:20.0.1] /Users/administrator/.gradle/caches/transforms-3/6d62fb7e160df6b8b32415d5ae8a3eca/transformed/jetified-play-services-measurement-api-20.0.1/AndroidManifest.xml:30:13-32:85
+115                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+115-->[com.google.android.gms:play-services-measurement-api:20.0.1] /Users/administrator/.gradle/caches/transforms-3/6d62fb7e160df6b8b32415d5ae8a3eca/transformed/jetified-play-services-measurement-api-20.0.1/AndroidManifest.xml:31:17-139
+116                android:value="com.google.firebase.components.ComponentRegistrar" />
+116-->[com.google.android.gms:play-services-measurement-api:20.0.1] /Users/administrator/.gradle/caches/transforms-3/6d62fb7e160df6b8b32415d5ae8a3eca/transformed/jetified-play-services-measurement-api-20.0.1/AndroidManifest.xml:32:17-82
+117            <meta-data
+117-->[com.google.firebase:firebase-installations:17.0.0] /Users/administrator/.gradle/caches/transforms-3/1dcf02d57e672f77fed182ad18b961c8/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+118                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+118-->[com.google.firebase:firebase-installations:17.0.0] /Users/administrator/.gradle/caches/transforms-3/1dcf02d57e672f77fed182ad18b961c8/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+119                android:value="com.google.firebase.components.ComponentRegistrar" />
+119-->[com.google.firebase:firebase-installations:17.0.0] /Users/administrator/.gradle/caches/transforms-3/1dcf02d57e672f77fed182ad18b961c8/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+120        </service>
+121
+122        <provider
+122-->[:react-native-firebase_app] /Users/administrator/Moop-Business-July/MoopBusiness/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:20:9-24:38
+123            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+123-->[:react-native-firebase_app] /Users/administrator/Moop-Business-July/MoopBusiness/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-88
+124            android:authorities="com.moopbusiness.reactnativefirebaseappinitprovider"
+124-->[:react-native-firebase_app] /Users/administrator/Moop-Business-July/MoopBusiness/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-86
+125            android:exported="false"
+125-->[:react-native-firebase_app] /Users/administrator/Moop-Business-July/MoopBusiness/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-37
+126            android:initOrder="99" />
+126-->[:react-native-firebase_app] /Users/administrator/Moop-Business-July/MoopBusiness/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-35
+127        <provider
+127-->[:react-native-image-picker] /Users/administrator/Moop-Business-July/MoopBusiness/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
+128            android:name="com.imagepicker.ImagePickerProvider"
+128-->[:react-native-image-picker] /Users/administrator/Moop-Business-July/MoopBusiness/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-63
+129            android:authorities="com.moopbusiness.imagepickerprovider"
+129-->[:react-native-image-picker] /Users/administrator/Moop-Business-July/MoopBusiness/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-71
+130            android:exported="false"
+130-->[:react-native-image-picker] /Users/administrator/Moop-Business-July/MoopBusiness/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+131            android:grantUriPermissions="true" >
+131-->[:react-native-image-picker] /Users/administrator/Moop-Business-July/MoopBusiness/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
+132            <meta-data
+132-->[:react-native-image-picker] /Users/administrator/Moop-Business-July/MoopBusiness/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-17:70
+133                android:name="android.support.FILE_PROVIDER_PATHS"
+133-->[:react-native-image-picker] /Users/administrator/Moop-Business-July/MoopBusiness/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:17-67
+134                android:resource="@xml/imagepicker_provider_paths" />
+134-->[:react-native-image-picker] /Users/administrator/Moop-Business-July/MoopBusiness/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-67
+135        </provider>
+136
+137        <activity
+137-->[com.instabug.library:instabug-survey:10.8.1] /Users/administrator/.gradle/caches/transforms-3/49bd0999d1bd6955bbc9e4e9fa22d2b3/transformed/jetified-instabug-survey-10.8.1/AndroidManifest.xml:12:9-17:58
+138            android:name="com.instabug.survey.ui.SurveyActivity"
+138-->[com.instabug.library:instabug-survey:10.8.1] /Users/administrator/.gradle/caches/transforms-3/49bd0999d1bd6955bbc9e4e9fa22d2b3/transformed/jetified-instabug-survey-10.8.1/AndroidManifest.xml:13:13-65
+139            android:configChanges="orientation|screenSize"
+139-->[com.instabug.library:instabug-survey:10.8.1] /Users/administrator/.gradle/caches/transforms-3/49bd0999d1bd6955bbc9e4e9fa22d2b3/transformed/jetified-instabug-survey-10.8.1/AndroidManifest.xml:14:13-59
+140            android:launchMode="singleTask"
+140-->[com.instabug.library:instabug-survey:10.8.1] /Users/administrator/.gradle/caches/transforms-3/49bd0999d1bd6955bbc9e4e9fa22d2b3/transformed/jetified-instabug-survey-10.8.1/AndroidManifest.xml:15:13-44
+141            android:theme="@style/InstabugTranslucentSdkTheme"
+141-->[com.instabug.library:instabug-survey:10.8.1] /Users/administrator/.gradle/caches/transforms-3/49bd0999d1bd6955bbc9e4e9fa22d2b3/transformed/jetified-instabug-survey-10.8.1/AndroidManifest.xml:16:13-63
+142            android:windowSoftInputMode="adjustResize" />
+142-->[com.instabug.library:instabug-survey:10.8.1] /Users/administrator/.gradle/caches/transforms-3/49bd0999d1bd6955bbc9e4e9fa22d2b3/transformed/jetified-instabug-survey-10.8.1/AndroidManifest.xml:17:13-55
+143        <activity
+143-->[com.instabug.library:instabug-survey:10.8.1] /Users/administrator/.gradle/caches/transforms-3/49bd0999d1bd6955bbc9e4e9fa22d2b3/transformed/jetified-instabug-survey-10.8.1/AndroidManifest.xml:18:9-23:58
+144            android:name="com.instabug.survey.announcements.ui.activity.AnnouncementActivity"
+144-->[com.instabug.library:instabug-survey:10.8.1] /Users/administrator/.gradle/caches/transforms-3/49bd0999d1bd6955bbc9e4e9fa22d2b3/transformed/jetified-instabug-survey-10.8.1/AndroidManifest.xml:19:13-94
+145            android:configChanges="orientation|screenSize"
+145-->[com.instabug.library:instabug-survey:10.8.1] /Users/administrator/.gradle/caches/transforms-3/49bd0999d1bd6955bbc9e4e9fa22d2b3/transformed/jetified-instabug-survey-10.8.1/AndroidManifest.xml:20:13-59
+146            android:launchMode="singleTask"
+146-->[com.instabug.library:instabug-survey:10.8.1] /Users/administrator/.gradle/caches/transforms-3/49bd0999d1bd6955bbc9e4e9fa22d2b3/transformed/jetified-instabug-survey-10.8.1/AndroidManifest.xml:21:13-44
+147            android:theme="@style/InstabugTranslucentSdkTheme"
+147-->[com.instabug.library:instabug-survey:10.8.1] /Users/administrator/.gradle/caches/transforms-3/49bd0999d1bd6955bbc9e4e9fa22d2b3/transformed/jetified-instabug-survey-10.8.1/AndroidManifest.xml:22:13-63
+148            android:windowSoftInputMode="adjustResize" />
+148-->[com.instabug.library:instabug-survey:10.8.1] /Users/administrator/.gradle/caches/transforms-3/49bd0999d1bd6955bbc9e4e9fa22d2b3/transformed/jetified-instabug-survey-10.8.1/AndroidManifest.xml:23:13-55
+149
+150        <service
+150-->[com.instabug.library:instabug-survey:10.8.1] /Users/administrator/.gradle/caches/transforms-3/49bd0999d1bd6955bbc9e4e9fa22d2b3/transformed/jetified-instabug-survey-10.8.1/AndroidManifest.xml:25:9-27:72
+151            android:name="com.instabug.survey.network.service.InstabugSurveysSubmitterService"
+151-->[com.instabug.library:instabug-survey:10.8.1] /Users/administrator/.gradle/caches/transforms-3/49bd0999d1bd6955bbc9e4e9fa22d2b3/transformed/jetified-instabug-survey-10.8.1/AndroidManifest.xml:26:13-95
+152            android:permission="android.permission.BIND_JOB_SERVICE" />
+152-->[com.instabug.library:instabug-survey:10.8.1] /Users/administrator/.gradle/caches/transforms-3/49bd0999d1bd6955bbc9e4e9fa22d2b3/transformed/jetified-instabug-survey-10.8.1/AndroidManifest.xml:27:13-69
+153        <service
+153-->[com.instabug.library:instabug-survey:10.8.1] /Users/administrator/.gradle/caches/transforms-3/49bd0999d1bd6955bbc9e4e9fa22d2b3/transformed/jetified-instabug-survey-10.8.1/AndroidManifest.xml:28:9-30:72
+154            android:name="com.instabug.survey.announcements.network.InstabugAnnouncementSubmitterService"
+154-->[com.instabug.library:instabug-survey:10.8.1] /Users/administrator/.gradle/caches/transforms-3/49bd0999d1bd6955bbc9e4e9fa22d2b3/transformed/jetified-instabug-survey-10.8.1/AndroidManifest.xml:29:13-106
+155            android:permission="android.permission.BIND_JOB_SERVICE" />
+155-->[com.instabug.library:instabug-survey:10.8.1] /Users/administrator/.gradle/caches/transforms-3/49bd0999d1bd6955bbc9e4e9fa22d2b3/transformed/jetified-instabug-survey-10.8.1/AndroidManifest.xml:30:13-69
+156        <service
+156-->[com.instabug.library:instabug-crash:10.8.1] /Users/administrator/.gradle/caches/transforms-3/b29f59708315cd7e8131c641f2ac0b29/transformed/jetified-instabug-crash-10.8.1/AndroidManifest.xml:12:9-14:72
+157            android:name="com.instabug.crash.network.InstabugCrashesUploaderService"
+157-->[com.instabug.library:instabug-crash:10.8.1] /Users/administrator/.gradle/caches/transforms-3/b29f59708315cd7e8131c641f2ac0b29/transformed/jetified-instabug-crash-10.8.1/AndroidManifest.xml:13:13-85
+158            android:permission="android.permission.BIND_JOB_SERVICE" />
+158-->[com.instabug.library:instabug-crash:10.8.1] /Users/administrator/.gradle/caches/transforms-3/b29f59708315cd7e8131c641f2ac0b29/transformed/jetified-instabug-crash-10.8.1/AndroidManifest.xml:14:13-69
+159        <service
+159-->[com.instabug.library:instabug-crash:10.8.1] /Users/administrator/.gradle/caches/transforms-3/b29f59708315cd7e8131c641f2ac0b29/transformed/jetified-instabug-crash-10.8.1/AndroidManifest.xml:15:9-17:72
+160            android:name="com.instabug.anr.network.InstabugAnrUploaderService"
+160-->[com.instabug.library:instabug-crash:10.8.1] /Users/administrator/.gradle/caches/transforms-3/b29f59708315cd7e8131c641f2ac0b29/transformed/jetified-instabug-crash-10.8.1/AndroidManifest.xml:16:13-79
+161            android:permission="android.permission.BIND_JOB_SERVICE" />
+161-->[com.instabug.library:instabug-crash:10.8.1] /Users/administrator/.gradle/caches/transforms-3/b29f59708315cd7e8131c641f2ac0b29/transformed/jetified-instabug-crash-10.8.1/AndroidManifest.xml:17:13-69
+162
+163        <activity
+163-->[com.instabug.library:instabug-bug:10.8.1] /Users/administrator/.gradle/caches/transforms-3/42a68f473d9a638bb74f7ffb8cf1c88f/transformed/jetified-instabug-bug-10.8.1/AndroidManifest.xml:14:9-20:20
+164            android:name="com.instabug.bug.view.reporting.ReportingContainerActivity"
+164-->[com.instabug.library:instabug-bug:10.8.1] /Users/administrator/.gradle/caches/transforms-3/42a68f473d9a638bb74f7ffb8cf1c88f/transformed/jetified-instabug-bug-10.8.1/AndroidManifest.xml:15:13-86
+165            android:configChanges="orientation|keyboardHidden|screenSize"
+165-->[com.instabug.library:instabug-bug:10.8.1] /Users/administrator/.gradle/caches/transforms-3/42a68f473d9a638bb74f7ffb8cf1c88f/transformed/jetified-instabug-bug-10.8.1/AndroidManifest.xml:16:13-74
+166            android:launchMode="singleTask"
+166-->[com.instabug.library:instabug-bug:10.8.1] /Users/administrator/.gradle/caches/transforms-3/42a68f473d9a638bb74f7ffb8cf1c88f/transformed/jetified-instabug-bug-10.8.1/AndroidManifest.xml:17:13-44
+167            android:theme="@style/InstabugSdkTheme"
+167-->[com.instabug.library:instabug-bug:10.8.1] /Users/administrator/.gradle/caches/transforms-3/42a68f473d9a638bb74f7ffb8cf1c88f/transformed/jetified-instabug-bug-10.8.1/AndroidManifest.xml:18:13-52
+168            android:windowSoftInputMode="adjustResize" >
+168-->[com.instabug.library:instabug-bug:10.8.1] /Users/administrator/.gradle/caches/transforms-3/42a68f473d9a638bb74f7ffb8cf1c88f/transformed/jetified-instabug-bug-10.8.1/AndroidManifest.xml:19:13-55
+169        </activity>
+170
+171        <service
+171-->[com.instabug.library:instabug-bug:10.8.1] /Users/administrator/.gradle/caches/transforms-3/42a68f473d9a638bb74f7ffb8cf1c88f/transformed/jetified-instabug-bug-10.8.1/AndroidManifest.xml:22:9-24:72
+172            android:name="com.instabug.bug.network.InstabugBugsUploaderService"
+172-->[com.instabug.library:instabug-bug:10.8.1] /Users/administrator/.gradle/caches/transforms-3/42a68f473d9a638bb74f7ffb8cf1c88f/transformed/jetified-instabug-bug-10.8.1/AndroidManifest.xml:23:13-80
+173            android:permission="android.permission.BIND_JOB_SERVICE" />
+173-->[com.instabug.library:instabug-bug:10.8.1] /Users/administrator/.gradle/caches/transforms-3/42a68f473d9a638bb74f7ffb8cf1c88f/transformed/jetified-instabug-bug-10.8.1/AndroidManifest.xml:24:13-69
+174        <service
+174-->[com.instabug.library:instabug-bug:10.8.1] /Users/administrator/.gradle/caches/transforms-3/42a68f473d9a638bb74f7ffb8cf1c88f/transformed/jetified-instabug-bug-10.8.1/AndroidManifest.xml:25:9-27:72
+175            android:name="com.instabug.bug.view.actionList.service.ReportCategoriesService"
+175-->[com.instabug.library:instabug-bug:10.8.1] /Users/administrator/.gradle/caches/transforms-3/42a68f473d9a638bb74f7ffb8cf1c88f/transformed/jetified-instabug-bug-10.8.1/AndroidManifest.xml:26:13-92
+176            android:permission="android.permission.BIND_JOB_SERVICE" />
+176-->[com.instabug.library:instabug-bug:10.8.1] /Users/administrator/.gradle/caches/transforms-3/42a68f473d9a638bb74f7ffb8cf1c88f/transformed/jetified-instabug-bug-10.8.1/AndroidManifest.xml:27:13-69
+177
+178        <activity
+178-->[com.instabug.library:instabug-chat:10.8.1] /Users/administrator/.gradle/caches/transforms-3/b78508ab4039b4945a6e11516655703a/transformed/jetified-instabug-chat-10.8.1/AndroidManifest.xml:12:9-17:58
+179            android:name="com.instabug.chat.ui.ChatActivity"
+179-->[com.instabug.library:instabug-chat:10.8.1] /Users/administrator/.gradle/caches/transforms-3/b78508ab4039b4945a6e11516655703a/transformed/jetified-instabug-chat-10.8.1/AndroidManifest.xml:13:13-61
+180            android:configChanges="orientation|screenSize"
+180-->[com.instabug.library:instabug-chat:10.8.1] /Users/administrator/.gradle/caches/transforms-3/b78508ab4039b4945a6e11516655703a/transformed/jetified-instabug-chat-10.8.1/AndroidManifest.xml:14:13-59
+181            android:launchMode="singleTop"
+181-->[com.instabug.library:instabug-chat:10.8.1] /Users/administrator/.gradle/caches/transforms-3/b78508ab4039b4945a6e11516655703a/transformed/jetified-instabug-chat-10.8.1/AndroidManifest.xml:15:13-43
+182            android:theme="@style/InstabugSdkTheme"
+182-->[com.instabug.library:instabug-chat:10.8.1] /Users/administrator/.gradle/caches/transforms-3/b78508ab4039b4945a6e11516655703a/transformed/jetified-instabug-chat-10.8.1/AndroidManifest.xml:16:13-52
+183            android:windowSoftInputMode="adjustResize" />
+183-->[com.instabug.library:instabug-chat:10.8.1] /Users/administrator/.gradle/caches/transforms-3/b78508ab4039b4945a6e11516655703a/transformed/jetified-instabug-chat-10.8.1/AndroidManifest.xml:17:13-55
+184
+185        <service
+185-->[com.instabug.library:instabug-chat:10.8.1] /Users/administrator/.gradle/caches/transforms-3/b78508ab4039b4945a6e11516655703a/transformed/jetified-instabug-chat-10.8.1/AndroidManifest.xml:19:9-21:72
+186            android:name="com.instabug.chat.network.InstabugMessageUploaderService"
+186-->[com.instabug.library:instabug-chat:10.8.1] /Users/administrator/.gradle/caches/transforms-3/b78508ab4039b4945a6e11516655703a/transformed/jetified-instabug-chat-10.8.1/AndroidManifest.xml:20:13-84
+187            android:permission="android.permission.BIND_JOB_SERVICE" />
+187-->[com.instabug.library:instabug-chat:10.8.1] /Users/administrator/.gradle/caches/transforms-3/b78508ab4039b4945a6e11516655703a/transformed/jetified-instabug-chat-10.8.1/AndroidManifest.xml:21:13-69
+188        <service
+188-->[com.instabug.library:instabug-chat:10.8.1] /Users/administrator/.gradle/caches/transforms-3/b78508ab4039b4945a6e11516655703a/transformed/jetified-instabug-chat-10.8.1/AndroidManifest.xml:22:9-24:72
+189            android:name="com.instabug.chat.network.InstabugPushNotificationTokenService"
+189-->[com.instabug.library:instabug-chat:10.8.1] /Users/administrator/.gradle/caches/transforms-3/b78508ab4039b4945a6e11516655703a/transformed/jetified-instabug-chat-10.8.1/AndroidManifest.xml:23:13-90
+190            android:permission="android.permission.BIND_JOB_SERVICE" />
+190-->[com.instabug.library:instabug-chat:10.8.1] /Users/administrator/.gradle/caches/transforms-3/b78508ab4039b4945a6e11516655703a/transformed/jetified-instabug-chat-10.8.1/AndroidManifest.xml:24:13-69
+191
+192        <activity
+192-->[com.instabug.library:instabug-features-request:10.8.1] /Users/administrator/.gradle/caches/transforms-3/830442ed8ec9d1593fb311b4a4326f3c/transformed/jetified-instabug-features-request-10.8.1/AndroidManifest.xml:12:9-17:58
+193            android:name="com.instabug.featuresrequest.ui.FeaturesRequestActivity"
+193-->[com.instabug.library:instabug-features-request:10.8.1] /Users/administrator/.gradle/caches/transforms-3/830442ed8ec9d1593fb311b4a4326f3c/transformed/jetified-instabug-features-request-10.8.1/AndroidManifest.xml:13:13-83
+194            android:configChanges="orientation|screenSize"
+194-->[com.instabug.library:instabug-features-request:10.8.1] /Users/administrator/.gradle/caches/transforms-3/830442ed8ec9d1593fb311b4a4326f3c/transformed/jetified-instabug-features-request-10.8.1/AndroidManifest.xml:14:13-59
+195            android:launchMode="singleTop"
+195-->[com.instabug.library:instabug-features-request:10.8.1] /Users/administrator/.gradle/caches/transforms-3/830442ed8ec9d1593fb311b4a4326f3c/transformed/jetified-instabug-features-request-10.8.1/AndroidManifest.xml:15:13-43
+196            android:theme="@style/Theme.AppCompat"
+196-->[com.instabug.library:instabug-features-request:10.8.1] /Users/administrator/.gradle/caches/transforms-3/830442ed8ec9d1593fb311b4a4326f3c/transformed/jetified-instabug-features-request-10.8.1/AndroidManifest.xml:16:13-51
+197            android:windowSoftInputMode="adjustResize" />
+197-->[com.instabug.library:instabug-features-request:10.8.1] /Users/administrator/.gradle/caches/transforms-3/830442ed8ec9d1593fb311b4a4326f3c/transformed/jetified-instabug-features-request-10.8.1/AndroidManifest.xml:17:13-55
+198
+199        <service
+199-->[com.instabug.library:instabug-features-request:10.8.1] /Users/administrator/.gradle/caches/transforms-3/830442ed8ec9d1593fb311b4a4326f3c/transformed/jetified-instabug-features-request-10.8.1/AndroidManifest.xml:19:9-21:72
+200            android:name="com.instabug.featuresrequest.network.service.FeaturesRequestVoteService"
+200-->[com.instabug.library:instabug-features-request:10.8.1] /Users/administrator/.gradle/caches/transforms-3/830442ed8ec9d1593fb311b4a4326f3c/transformed/jetified-instabug-features-request-10.8.1/AndroidManifest.xml:20:13-99
+201            android:permission="android.permission.BIND_JOB_SERVICE" />
+201-->[com.instabug.library:instabug-features-request:10.8.1] /Users/administrator/.gradle/caches/transforms-3/830442ed8ec9d1593fb311b4a4326f3c/transformed/jetified-instabug-features-request-10.8.1/AndroidManifest.xml:21:13-69
+202
+203        <provider
+203-->[com.instabug.library:instabug-apm:10.8.1] /Users/administrator/.gradle/caches/transforms-3/9c2c028cfd4f657210da20196687aec6/transformed/jetified-instabug-apm-10.8.1/AndroidManifest.xml:14:9-18:46
+204            android:name="com.instabug.apm.contentprovider.APMContentProvider"
+204-->[com.instabug.library:instabug-apm:10.8.1] /Users/administrator/.gradle/caches/transforms-3/9c2c028cfd4f657210da20196687aec6/transformed/jetified-instabug-apm-10.8.1/AndroidManifest.xml:15:13-79
+205            android:authorities="com.moopbusiness.applaunch.contentprovider.AppLaunchContentProvider"
+205-->[com.instabug.library:instabug-apm:10.8.1] /Users/administrator/.gradle/caches/transforms-3/9c2c028cfd4f657210da20196687aec6/transformed/jetified-instabug-apm-10.8.1/AndroidManifest.xml:16:13-102
+206            android:exported="false"
+206-->[com.instabug.library:instabug-apm:10.8.1] /Users/administrator/.gradle/caches/transforms-3/9c2c028cfd4f657210da20196687aec6/transformed/jetified-instabug-apm-10.8.1/AndroidManifest.xml:17:13-37
+207            android:initOrder="2147483647" />
+207-->[com.instabug.library:instabug-apm:10.8.1] /Users/administrator/.gradle/caches/transforms-3/9c2c028cfd4f657210da20196687aec6/transformed/jetified-instabug-apm-10.8.1/AndroidManifest.xml:18:13-43
+208
+209        <service
+209-->[com.instabug.library:instabug-core:10.8.1] /Users/administrator/.gradle/caches/transforms-3/154120d1f95eb95caf2e8bf8de28a8e8/transformed/jetified-instabug-core-10.8.1/AndroidManifest.xml:23:9-25:72
+210            android:name="com.instabug.library.analytics.network.InstabugAnalyticsUploaderService"
+210-->[com.instabug.library:instabug-core:10.8.1] /Users/administrator/.gradle/caches/transforms-3/154120d1f95eb95caf2e8bf8de28a8e8/transformed/jetified-instabug-core-10.8.1/AndroidManifest.xml:24:13-99
+211            android:permission="android.permission.BIND_JOB_SERVICE" />
+211-->[com.instabug.library:instabug-core:10.8.1] /Users/administrator/.gradle/caches/transforms-3/154120d1f95eb95caf2e8bf8de28a8e8/transformed/jetified-instabug-core-10.8.1/AndroidManifest.xml:25:13-69
+212
+213        <activity
+213-->[com.instabug.library:instabug-core:10.8.1] /Users/administrator/.gradle/caches/transforms-3/154120d1f95eb95caf2e8bf8de28a8e8/transformed/jetified-instabug-core-10.8.1/AndroidManifest.xml:27:9-30:66
+214            android:name="com.instabug.library.internal.video.RequestPermissionActivity"
+214-->[com.instabug.library:instabug-core:10.8.1] /Users/administrator/.gradle/caches/transforms-3/154120d1f95eb95caf2e8bf8de28a8e8/transformed/jetified-instabug-core-10.8.1/AndroidManifest.xml:28:13-89
+215            android:configChanges="orientation|screenSize"
+215-->[com.instabug.library:instabug-core:10.8.1] /Users/administrator/.gradle/caches/transforms-3/154120d1f95eb95caf2e8bf8de28a8e8/transformed/jetified-instabug-core-10.8.1/AndroidManifest.xml:29:13-59
+216            android:theme="@style/InstabugTranslucentSdkTheme" />
+216-->[com.instabug.library:instabug-core:10.8.1] /Users/administrator/.gradle/caches/transforms-3/154120d1f95eb95caf2e8bf8de28a8e8/transformed/jetified-instabug-core-10.8.1/AndroidManifest.xml:30:13-63
+217        <activity
+217-->[com.instabug.library:instabug-core:10.8.1] /Users/administrator/.gradle/caches/transforms-3/154120d1f95eb95caf2e8bf8de28a8e8/transformed/jetified-instabug-core-10.8.1/AndroidManifest.xml:31:9-34:66
+218            android:name="com.instabug.library.invocation.invocationdialog.InstabugDialogActivity"
+218-->[com.instabug.library:instabug-core:10.8.1] /Users/administrator/.gradle/caches/transforms-3/154120d1f95eb95caf2e8bf8de28a8e8/transformed/jetified-instabug-core-10.8.1/AndroidManifest.xml:32:13-99
+219            android:launchMode="singleTask"
+219-->[com.instabug.library:instabug-core:10.8.1] /Users/administrator/.gradle/caches/transforms-3/154120d1f95eb95caf2e8bf8de28a8e8/transformed/jetified-instabug-core-10.8.1/AndroidManifest.xml:33:13-44
+220            android:theme="@style/InstabugTranslucentSdkTheme" />
+220-->[com.instabug.library:instabug-core:10.8.1] /Users/administrator/.gradle/caches/transforms-3/154120d1f95eb95caf2e8bf8de28a8e8/transformed/jetified-instabug-core-10.8.1/AndroidManifest.xml:34:13-63
+221        <activity
+221-->[com.instabug.library:instabug-core:10.8.1] /Users/administrator/.gradle/caches/transforms-3/154120d1f95eb95caf2e8bf8de28a8e8/transformed/jetified-instabug-core-10.8.1/AndroidManifest.xml:35:9-38:66
+222            android:name="com.instabug.library.ui.onboarding.OnboardingActivity"
+222-->[com.instabug.library:instabug-core:10.8.1] /Users/administrator/.gradle/caches/transforms-3/154120d1f95eb95caf2e8bf8de28a8e8/transformed/jetified-instabug-core-10.8.1/AndroidManifest.xml:36:13-81
+223            android:launchMode="singleTask"
+223-->[com.instabug.library:instabug-core:10.8.1] /Users/administrator/.gradle/caches/transforms-3/154120d1f95eb95caf2e8bf8de28a8e8/transformed/jetified-instabug-core-10.8.1/AndroidManifest.xml:37:13-44
+224            android:theme="@style/InstabugTranslucentSdkTheme" />
+224-->[com.instabug.library:instabug-core:10.8.1] /Users/administrator/.gradle/caches/transforms-3/154120d1f95eb95caf2e8bf8de28a8e8/transformed/jetified-instabug-core-10.8.1/AndroidManifest.xml:38:13-63
+225
+226        <provider
+226-->[com.instabug.library:instabug-core:10.8.1] /Users/administrator/.gradle/caches/transforms-3/154120d1f95eb95caf2e8bf8de28a8e8/transformed/jetified-instabug-core-10.8.1/AndroidManifest.xml:40:9-44:40
+227            android:name="com.instabug.library.internal.contentprovider.InstabugContentProvider"
+227-->[com.instabug.library:instabug-core:10.8.1] /Users/administrator/.gradle/caches/transforms-3/154120d1f95eb95caf2e8bf8de28a8e8/transformed/jetified-instabug-core-10.8.1/AndroidManifest.xml:41:13-97
+228            android:authorities="com.moopbusiness.internal.contentprovider.InstabugContentProvider"
+228-->[com.instabug.library:instabug-core:10.8.1] /Users/administrator/.gradle/caches/transforms-3/154120d1f95eb95caf2e8bf8de28a8e8/transformed/jetified-instabug-core-10.8.1/AndroidManifest.xml:42:13-100
+229            android:enabled="true"
+229-->[com.instabug.library:instabug-core:10.8.1] /Users/administrator/.gradle/caches/transforms-3/154120d1f95eb95caf2e8bf8de28a8e8/transformed/jetified-instabug-core-10.8.1/AndroidManifest.xml:43:13-35
+230            android:exported="false" />
+230-->[com.instabug.library:instabug-core:10.8.1] /Users/administrator/.gradle/caches/transforms-3/154120d1f95eb95caf2e8bf8de28a8e8/transformed/jetified-instabug-core-10.8.1/AndroidManifest.xml:44:13-37
+231
+232        <service
+232-->[com.instabug.library:instabug-core:10.8.1] /Users/administrator/.gradle/caches/transforms-3/154120d1f95eb95caf2e8bf8de28a8e8/transformed/jetified-instabug-core-10.8.1/AndroidManifest.xml:46:9-51:35
+233            android:name="com.instabug.library.internal.video.ScreenRecordingService"
+233-->[com.instabug.library:instabug-core:10.8.1] /Users/administrator/.gradle/caches/transforms-3/154120d1f95eb95caf2e8bf8de28a8e8/transformed/jetified-instabug-core-10.8.1/AndroidManifest.xml:47:13-86
+234            android:enabled="true"
+234-->[com.instabug.library:instabug-core:10.8.1] /Users/administrator/.gradle/caches/transforms-3/154120d1f95eb95caf2e8bf8de28a8e8/transformed/jetified-instabug-core-10.8.1/AndroidManifest.xml:48:13-35
+235            android:exported="false"
+235-->[com.instabug.library:instabug-core:10.8.1] /Users/administrator/.gradle/caches/transforms-3/154120d1f95eb95caf2e8bf8de28a8e8/transformed/jetified-instabug-core-10.8.1/AndroidManifest.xml:49:13-37
+236            android:foregroundServiceType="mediaProjection" />
+236-->[com.instabug.library:instabug-core:10.8.1] /Users/administrator/.gradle/caches/transforms-3/154120d1f95eb95caf2e8bf8de28a8e8/transformed/jetified-instabug-core-10.8.1/AndroidManifest.xml:50:13-60
+237        <service
+237-->[com.instabug.library:instabug-core:10.8.1] /Users/administrator/.gradle/caches/transforms-3/154120d1f95eb95caf2e8bf8de28a8e8/transformed/jetified-instabug-core-10.8.1/AndroidManifest.xml:52:9-57:35
+238            android:name="com.instabug.library.screenshot.ScreenshotCaptureService"
+238-->[com.instabug.library:instabug-core:10.8.1] /Users/administrator/.gradle/caches/transforms-3/154120d1f95eb95caf2e8bf8de28a8e8/transformed/jetified-instabug-core-10.8.1/AndroidManifest.xml:53:13-84
+239            android:enabled="true"
+239-->[com.instabug.library:instabug-core:10.8.1] /Users/administrator/.gradle/caches/transforms-3/154120d1f95eb95caf2e8bf8de28a8e8/transformed/jetified-instabug-core-10.8.1/AndroidManifest.xml:54:13-35
+240            android:exported="false"
+240-->[com.instabug.library:instabug-core:10.8.1] /Users/administrator/.gradle/caches/transforms-3/154120d1f95eb95caf2e8bf8de28a8e8/transformed/jetified-instabug-core-10.8.1/AndroidManifest.xml:55:13-37
+241            android:foregroundServiceType="mediaProjection" />
+241-->[com.instabug.library:instabug-core:10.8.1] /Users/administrator/.gradle/caches/transforms-3/154120d1f95eb95caf2e8bf8de28a8e8/transformed/jetified-instabug-core-10.8.1/AndroidManifest.xml:56:13-60
+242
+243        <receiver
+243-->[com.google.firebase:firebase-messaging:23.0.0] /Users/administrator/.gradle/caches/transforms-3/9e649fa2469458e125f1f52d22c5d9ea/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:28:9-35:20
+244            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+244-->[com.google.firebase:firebase-messaging:23.0.0] /Users/administrator/.gradle/caches/transforms-3/9e649fa2469458e125f1f52d22c5d9ea/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:29:13-78
+245            android:exported="true"
+245-->[com.google.firebase:firebase-messaging:23.0.0] /Users/administrator/.gradle/caches/transforms-3/9e649fa2469458e125f1f52d22c5d9ea/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:30:13-36
+246            android:permission="com.google.android.c2dm.permission.SEND" >
+246-->[com.google.firebase:firebase-messaging:23.0.0] /Users/administrator/.gradle/caches/transforms-3/9e649fa2469458e125f1f52d22c5d9ea/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:31:13-73
+247            <intent-filter>
+247-->[com.google.firebase:firebase-messaging:23.0.0] /Users/administrator/.gradle/caches/transforms-3/9e649fa2469458e125f1f52d22c5d9ea/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:32:13-34:29
+248                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+248-->[com.google.firebase:firebase-messaging:23.0.0] /Users/administrator/.gradle/caches/transforms-3/9e649fa2469458e125f1f52d22c5d9ea/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:33:17-81
+248-->[com.google.firebase:firebase-messaging:23.0.0] /Users/administrator/.gradle/caches/transforms-3/9e649fa2469458e125f1f52d22c5d9ea/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:33:25-78
+249            </intent-filter>
+250        </receiver>
+251        <!--
+252             FirebaseMessagingService performs security checks at runtime,
+253             but set to not exported to explicitly avoid allowing another app to call it.
+254        -->
+255        <service
+255-->[com.google.firebase:firebase-messaging:23.0.0] /Users/administrator/.gradle/caches/transforms-3/9e649fa2469458e125f1f52d22c5d9ea/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:41:9-48:19
+256            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+256-->[com.google.firebase:firebase-messaging:23.0.0] /Users/administrator/.gradle/caches/transforms-3/9e649fa2469458e125f1f52d22c5d9ea/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:42:13-82
+257            android:directBootAware="true"
+257-->[com.google.firebase:firebase-messaging:23.0.0] /Users/administrator/.gradle/caches/transforms-3/9e649fa2469458e125f1f52d22c5d9ea/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:43:13-43
+258            android:exported="false" >
+258-->[com.google.firebase:firebase-messaging:23.0.0] /Users/administrator/.gradle/caches/transforms-3/9e649fa2469458e125f1f52d22c5d9ea/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:44:13-37
+259            <intent-filter android:priority="-500" >
+259-->/Users/administrator/Moop-Business-July/MoopBusiness/android/app/src/main/AndroidManifest.xml:49:13-51:29
+260                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+260-->/Users/administrator/Moop-Business-July/MoopBusiness/android/app/src/main/AndroidManifest.xml:50:17-78
+260-->/Users/administrator/Moop-Business-July/MoopBusiness/android/app/src/main/AndroidManifest.xml:50:25-75
+261            </intent-filter>
+262        </service>
+263        <service
+263-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/administrator/.gradle/caches/transforms-3/1286115b8f72d8a75ddaca07489e5b74/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:29:9-35:19
+264            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+264-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/administrator/.gradle/caches/transforms-3/1286115b8f72d8a75ddaca07489e5b74/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:30:13-103
+265            android:exported="false" >
+265-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/administrator/.gradle/caches/transforms-3/1286115b8f72d8a75ddaca07489e5b74/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:31:13-37
+266            <meta-data
+266-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/administrator/.gradle/caches/transforms-3/1286115b8f72d8a75ddaca07489e5b74/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:32:13-34:39
+267                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+267-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/administrator/.gradle/caches/transforms-3/1286115b8f72d8a75ddaca07489e5b74/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:33:17-94
+268                android:value="cct" />
+268-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/administrator/.gradle/caches/transforms-3/1286115b8f72d8a75ddaca07489e5b74/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:34:17-36
+269        </service>
+270
+271        <provider
+271-->[com.google.firebase:firebase-common:20.0.0] /Users/administrator/.gradle/caches/transforms-3/dfc172e13ac61f3210434dcbcf410699/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+272            android:name="com.google.firebase.provider.FirebaseInitProvider"
+272-->[com.google.firebase:firebase-common:20.0.0] /Users/administrator/.gradle/caches/transforms-3/dfc172e13ac61f3210434dcbcf410699/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+273            android:authorities="com.moopbusiness.firebaseinitprovider"
+273-->[com.google.firebase:firebase-common:20.0.0] /Users/administrator/.gradle/caches/transforms-3/dfc172e13ac61f3210434dcbcf410699/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+274            android:directBootAware="true"
+274-->[com.google.firebase:firebase-common:20.0.0] /Users/administrator/.gradle/caches/transforms-3/dfc172e13ac61f3210434dcbcf410699/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+275            android:exported="false"
+275-->[com.google.firebase:firebase-common:20.0.0] /Users/administrator/.gradle/caches/transforms-3/dfc172e13ac61f3210434dcbcf410699/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+276            android:initOrder="100" />
+276-->[com.google.firebase:firebase-common:20.0.0] /Users/administrator/.gradle/caches/transforms-3/dfc172e13ac61f3210434dcbcf410699/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+277
+278        <service
+278-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/administrator/.gradle/caches/transforms-3/d018fdde7fc1f761016ab7cdc2585e2e/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:26:9-30:19
+279            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+279-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/administrator/.gradle/caches/transforms-3/d018fdde7fc1f761016ab7cdc2585e2e/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:27:13-117
+280            android:exported="false"
+280-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/administrator/.gradle/caches/transforms-3/d018fdde7fc1f761016ab7cdc2585e2e/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:28:13-37
+281            android:permission="android.permission.BIND_JOB_SERVICE" >
+281-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/administrator/.gradle/caches/transforms-3/d018fdde7fc1f761016ab7cdc2585e2e/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:29:13-69
+282        </service>
+283
+284        <receiver
+284-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/administrator/.gradle/caches/transforms-3/d018fdde7fc1f761016ab7cdc2585e2e/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:32:9-34:40
+285            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+285-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/administrator/.gradle/caches/transforms-3/d018fdde7fc1f761016ab7cdc2585e2e/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:33:13-132
+286            android:exported="false" />
+286-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/administrator/.gradle/caches/transforms-3/d018fdde7fc1f761016ab7cdc2585e2e/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:34:13-37
+287
+288        <activity
+288-->[com.google.android.gms:play-services-auth:20.0.0] /Users/administrator/.gradle/caches/transforms-3/ef5ef8113da2856269fdde2bcca54530/transformed/jetified-play-services-auth-20.0.0/AndroidManifest.xml:23:9-27:75
+289            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+289-->[com.google.android.gms:play-services-auth:20.0.0] /Users/administrator/.gradle/caches/transforms-3/ef5ef8113da2856269fdde2bcca54530/transformed/jetified-play-services-auth-20.0.0/AndroidManifest.xml:24:13-93
+290            android:excludeFromRecents="true"
+290-->[com.google.android.gms:play-services-auth:20.0.0] /Users/administrator/.gradle/caches/transforms-3/ef5ef8113da2856269fdde2bcca54530/transformed/jetified-play-services-auth-20.0.0/AndroidManifest.xml:25:13-46
+291            android:exported="false"
+291-->[com.google.android.gms:play-services-auth:20.0.0] /Users/administrator/.gradle/caches/transforms-3/ef5ef8113da2856269fdde2bcca54530/transformed/jetified-play-services-auth-20.0.0/AndroidManifest.xml:26:13-37
+292            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+292-->[com.google.android.gms:play-services-auth:20.0.0] /Users/administrator/.gradle/caches/transforms-3/ef5ef8113da2856269fdde2bcca54530/transformed/jetified-play-services-auth-20.0.0/AndroidManifest.xml:27:13-72
+293        <!--
+294            Service handling Google Sign-In user revocation. For apps that do not integrate with
+295            Google Sign-In, this service will never be started.
+296        -->
+297        <service
+297-->[com.google.android.gms:play-services-auth:20.0.0] /Users/administrator/.gradle/caches/transforms-3/ef5ef8113da2856269fdde2bcca54530/transformed/jetified-play-services-auth-20.0.0/AndroidManifest.xml:33:9-37:51
+298            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+298-->[com.google.android.gms:play-services-auth:20.0.0] /Users/administrator/.gradle/caches/transforms-3/ef5ef8113da2856269fdde2bcca54530/transformed/jetified-play-services-auth-20.0.0/AndroidManifest.xml:34:13-89
+299            android:exported="true"
+299-->[com.google.android.gms:play-services-auth:20.0.0] /Users/administrator/.gradle/caches/transforms-3/ef5ef8113da2856269fdde2bcca54530/transformed/jetified-play-services-auth-20.0.0/AndroidManifest.xml:35:13-36
+300            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+300-->[com.google.android.gms:play-services-auth:20.0.0] /Users/administrator/.gradle/caches/transforms-3/ef5ef8113da2856269fdde2bcca54530/transformed/jetified-play-services-auth-20.0.0/AndroidManifest.xml:36:13-107
+301            android:visibleToInstantApps="true" />
+301-->[com.google.android.gms:play-services-auth:20.0.0] /Users/administrator/.gradle/caches/transforms-3/ef5ef8113da2856269fdde2bcca54530/transformed/jetified-play-services-auth-20.0.0/AndroidManifest.xml:37:13-48
+302
+303        <activity
+303-->[com.google.android.gms:play-services-base:18.0.0] /Users/administrator/.gradle/caches/transforms-3/bebeec3485916b12a7461ebe8801ce1f/transformed/jetified-play-services-base-18.0.0/AndroidManifest.xml:20:9-22:45
+304            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+304-->[com.google.android.gms:play-services-base:18.0.0] /Users/administrator/.gradle/caches/transforms-3/bebeec3485916b12a7461ebe8801ce1f/transformed/jetified-play-services-base-18.0.0/AndroidManifest.xml:20:19-85
+305            android:exported="false"
+305-->[com.google.android.gms:play-services-base:18.0.0] /Users/administrator/.gradle/caches/transforms-3/bebeec3485916b12a7461ebe8801ce1f/transformed/jetified-play-services-base-18.0.0/AndroidManifest.xml:22:19-43
+306            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+306-->[com.google.android.gms:play-services-base:18.0.0] /Users/administrator/.gradle/caches/transforms-3/bebeec3485916b12a7461ebe8801ce1f/transformed/jetified-play-services-base-18.0.0/AndroidManifest.xml:21:19-78
+307
+308        <receiver
+308-->[com.google.android.gms:play-services-measurement:20.0.1] /Users/administrator/.gradle/caches/transforms-3/fead6d30d4cdde48e4971910574ff5f9/transformed/jetified-play-services-measurement-20.0.1/AndroidManifest.xml:29:9-33:20
+309            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+309-->[com.google.android.gms:play-services-measurement:20.0.1] /Users/administrator/.gradle/caches/transforms-3/fead6d30d4cdde48e4971910574ff5f9/transformed/jetified-play-services-measurement-20.0.1/AndroidManifest.xml:30:13-85
+310            android:enabled="true"
+310-->[com.google.android.gms:play-services-measurement:20.0.1] /Users/administrator/.gradle/caches/transforms-3/fead6d30d4cdde48e4971910574ff5f9/transformed/jetified-play-services-measurement-20.0.1/AndroidManifest.xml:31:13-35
+311            android:exported="false" >
+311-->[com.google.android.gms:play-services-measurement:20.0.1] /Users/administrator/.gradle/caches/transforms-3/fead6d30d4cdde48e4971910574ff5f9/transformed/jetified-play-services-measurement-20.0.1/AndroidManifest.xml:32:13-37
+312        </receiver>
+313
+314        <service
+314-->[com.google.android.gms:play-services-measurement:20.0.1] /Users/administrator/.gradle/caches/transforms-3/fead6d30d4cdde48e4971910574ff5f9/transformed/jetified-play-services-measurement-20.0.1/AndroidManifest.xml:35:9-38:40
+315            android:name="com.google.android.gms.measurement.AppMeasurementService"
+315-->[com.google.android.gms:play-services-measurement:20.0.1] /Users/administrator/.gradle/caches/transforms-3/fead6d30d4cdde48e4971910574ff5f9/transformed/jetified-play-services-measurement-20.0.1/AndroidManifest.xml:36:13-84
+316            android:enabled="true"
+316-->[com.google.android.gms:play-services-measurement:20.0.1] /Users/administrator/.gradle/caches/transforms-3/fead6d30d4cdde48e4971910574ff5f9/transformed/jetified-play-services-measurement-20.0.1/AndroidManifest.xml:37:13-35
+317            android:exported="false" />
+317-->[com.google.android.gms:play-services-measurement:20.0.1] /Users/administrator/.gradle/caches/transforms-3/fead6d30d4cdde48e4971910574ff5f9/transformed/jetified-play-services-measurement-20.0.1/AndroidManifest.xml:38:13-37
+318        <service
+318-->[com.google.android.gms:play-services-measurement:20.0.1] /Users/administrator/.gradle/caches/transforms-3/fead6d30d4cdde48e4971910574ff5f9/transformed/jetified-play-services-measurement-20.0.1/AndroidManifest.xml:39:9-43:72
+319            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+319-->[com.google.android.gms:play-services-measurement:20.0.1] /Users/administrator/.gradle/caches/transforms-3/fead6d30d4cdde48e4971910574ff5f9/transformed/jetified-play-services-measurement-20.0.1/AndroidManifest.xml:40:13-87
+320            android:enabled="true"
+320-->[com.google.android.gms:play-services-measurement:20.0.1] /Users/administrator/.gradle/caches/transforms-3/fead6d30d4cdde48e4971910574ff5f9/transformed/jetified-play-services-measurement-20.0.1/AndroidManifest.xml:41:13-35
+321            android:exported="false"
+321-->[com.google.android.gms:play-services-measurement:20.0.1] /Users/administrator/.gradle/caches/transforms-3/fead6d30d4cdde48e4971910574ff5f9/transformed/jetified-play-services-measurement-20.0.1/AndroidManifest.xml:42:13-37
+322            android:permission="android.permission.BIND_JOB_SERVICE" />
+322-->[com.google.android.gms:play-services-measurement:20.0.1] /Users/administrator/.gradle/caches/transforms-3/fead6d30d4cdde48e4971910574ff5f9/transformed/jetified-play-services-measurement-20.0.1/AndroidManifest.xml:43:13-69
+323
+324        <meta-data
+324-->[com.google.android.gms:play-services-basement:18.0.0] /Users/administrator/.gradle/caches/transforms-3/0b45f46d0aa555272212183ccdb4ca0d/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+325            android:name="com.google.android.gms.version"
+325-->[com.google.android.gms:play-services-basement:18.0.0] /Users/administrator/.gradle/caches/transforms-3/0b45f46d0aa555272212183ccdb4ca0d/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+326            android:value="@integer/google_play_services_version" /> <!-- The activities will be merged into the manifest of the hosting app. -->
+326-->[com.google.android.gms:play-services-basement:18.0.0] /Users/administrator/.gradle/caches/transforms-3/0b45f46d0aa555272212183ccdb4ca0d/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+327        <activity
+327-->[com.google.android.play:core:1.9.0] /Users/administrator/.gradle/caches/transforms-3/5f7c67d5567065841b6a6543c84208f7/transformed/jetified-core-1.9.0/AndroidManifest.xml:12:5-271
+328            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
+328-->[com.google.android.play:core:1.9.0] /Users/administrator/.gradle/caches/transforms-3/5f7c67d5567065841b6a6543c84208f7/transformed/jetified-core-1.9.0/AndroidManifest.xml:12:15-102
+329            android:enabled="false"
+329-->[com.google.android.play:core:1.9.0] /Users/administrator/.gradle/caches/transforms-3/5f7c67d5567065841b6a6543c84208f7/transformed/jetified-core-1.9.0/AndroidManifest.xml:12:103-126
+330            android:exported="false"
+330-->[com.google.android.play:core:1.9.0] /Users/administrator/.gradle/caches/transforms-3/5f7c67d5567065841b6a6543c84208f7/transformed/jetified-core-1.9.0/AndroidManifest.xml:12:127-151
+331            android:launchMode="singleInstance"
+331-->[com.google.android.play:core:1.9.0] /Users/administrator/.gradle/caches/transforms-3/5f7c67d5567065841b6a6543c84208f7/transformed/jetified-core-1.9.0/AndroidManifest.xml:12:204-239
+332            android:process=":playcore_missing_splits_activity"
+332-->[com.google.android.play:core:1.9.0] /Users/administrator/.gradle/caches/transforms-3/5f7c67d5567065841b6a6543c84208f7/transformed/jetified-core-1.9.0/AndroidManifest.xml:12:152-203
+333            android:stateNotNeeded="true" />
+333-->[com.google.android.play:core:1.9.0] /Users/administrator/.gradle/caches/transforms-3/5f7c67d5567065841b6a6543c84208f7/transformed/jetified-core-1.9.0/AndroidManifest.xml:12:240-269
+334        <activity
+334-->[com.google.android.play:core:1.9.0] /Users/administrator/.gradle/caches/transforms-3/5f7c67d5567065841b6a6543c84208f7/transformed/jetified-core-1.9.0/AndroidManifest.xml:13:5-226
+335            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+335-->[com.google.android.play:core:1.9.0] /Users/administrator/.gradle/caches/transforms-3/5f7c67d5567065841b6a6543c84208f7/transformed/jetified-core-1.9.0/AndroidManifest.xml:13:15-95
+336            android:enabled="false"
+336-->[com.google.android.play:core:1.9.0] /Users/administrator/.gradle/caches/transforms-3/5f7c67d5567065841b6a6543c84208f7/transformed/jetified-core-1.9.0/AndroidManifest.xml:13:96-119
+337            android:exported="false"
+337-->[com.google.android.play:core:1.9.0] /Users/administrator/.gradle/caches/transforms-3/5f7c67d5567065841b6a6543c84208f7/transformed/jetified-core-1.9.0/AndroidManifest.xml:13:120-144
+338            android:stateNotNeeded="true"
+338-->[com.google.android.play:core:1.9.0] /Users/administrator/.gradle/caches/transforms-3/5f7c67d5567065841b6a6543c84208f7/transformed/jetified-core-1.9.0/AndroidManifest.xml:13:145-174
+339            android:theme="@style/Theme.PlayCore.Transparent" /> <!-- The service will be merged into the manifest of the hosting app. -->
+339-->[com.google.android.play:core:1.9.0] /Users/administrator/.gradle/caches/transforms-3/5f7c67d5567065841b6a6543c84208f7/transformed/jetified-core-1.9.0/AndroidManifest.xml:13:175-224
+340        <service
+340-->[com.google.android.play:core:1.9.0] /Users/administrator/.gradle/caches/transforms-3/5f7c67d5567065841b6a6543c84208f7/transformed/jetified-core-1.9.0/AndroidManifest.xml:16:5-145
+341            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
+341-->[com.google.android.play:core:1.9.0] /Users/administrator/.gradle/caches/transforms-3/5f7c67d5567065841b6a6543c84208f7/transformed/jetified-core-1.9.0/AndroidManifest.xml:16:14-95
+342            android:enabled="false"
+342-->[com.google.android.play:core:1.9.0] /Users/administrator/.gradle/caches/transforms-3/5f7c67d5567065841b6a6543c84208f7/transformed/jetified-core-1.9.0/AndroidManifest.xml:16:96-119
+343            android:exported="true" />
+343-->[com.google.android.play:core:1.9.0] /Users/administrator/.gradle/caches/transforms-3/5f7c67d5567065841b6a6543c84208f7/transformed/jetified-core-1.9.0/AndroidManifest.xml:16:120-143
+344    </application>
+345
+346</manifest>

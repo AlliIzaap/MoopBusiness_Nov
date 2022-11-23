@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: com.instabug.library:instabug:10.8.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/860a030a96b69cd9d1a37e07b169a3df/transformed/jetified-instabug-10.8.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/860a030a96b69cd9d1a37e07b169a3df/transformed/jetified-instabug-10.8.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/860a030a96b69cd9d1a37e07b169a3df/transformed/jetified-instabug-10.8.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/253d9373449cae395476fea364ae91a2/transformed/jetified-instabug-10.9.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/253d9373449cae395476fea364ae91a2/transformed/jetified-instabug-10.9.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/253d9373449cae395476fea364ae91a2/transformed/jetified-instabug-10.9.1/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.instabug.library/instabug/10.8.1/f5bdc97e4a5b32f0780ad3bd2d7e1ed9c853a2c3/instabug-10.8.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.instabug.library/instabug/10.8.1/f5bdc97e4a5b32f0780ad3bd2d7e1ed9c853a2c3/instabug-10.8.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

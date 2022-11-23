@@ -1,0 +1,27 @@
+{
+  "name": "RNInstabug",
+  "version": "10.9.0",
+  "summary": "React Native plugin for integrating the Instabug SDK",
+  "authors": {
+    "name": "Hossam Hassan && Yousef Hamza"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Instabug/instabug-reactnative#readme",
+  "source": {
+    "git": "https://github.com/Instabug/instabug-reactnative.git",
+    "tag": "v10.9.0"
+  },
+  "source_files": "ios/RNInstabug/*",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "static_framework": true,
+  "ios": {
+    "vendored_frameworks": "ios/Instabug.xcframework"
+  },
+  "dependencies": {
+    "React": [
+
+    ]
+  }
+}

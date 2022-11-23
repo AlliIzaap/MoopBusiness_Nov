@@ -1,0 +1,96 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/administrator/Moop-Business-July/MoopBusiness/android/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-land/values-land.xml",
+            "map": [
+                {
+                    "source": "/Users/administrator/.gradle/caches/transforms-3/76c65170328d9697e2a779483449e976/transformed/material-1.1.0/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,24,30",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,128,198,270,340,405,472,542,614,683,752,834,924,1000,1068,1135,1213,1278,1345,1517,1912",
+                        "endLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,23,29,34",
+                        "endColumns": "72,69,71,69,64,66,69,71,68,68,81,89,75,67,66,77,64,66,10,10,10",
+                        "endOffsets": "123,193,265,335,400,467,537,609,678,747,829,919,995,1063,1130,1208,1273,1340,1512,1907,2176"
+                    },
+                    "to": {
+                        "startLines": "23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,48,49,50,54,60",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1403,1476,1546,1618,1688,1753,1820,1890,1962,2031,2100,2182,2272,2348,2416,2483,3093,3158,3225,3397,3792",
+                        "endLines": "23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,48,49,53,59,64",
+                        "endColumns": "72,69,71,69,64,66,69,71,68,68,81,89,75,67,66,77,64,66,10,10,10",
+                        "endOffsets": "1471,1541,1613,1683,1748,1815,1885,1957,2026,2095,2177,2267,2343,2411,2478,2556,3153,3220,3392,3787,4056"
+                    }
+                },
+                {
+                    "source": "/Users/administrator/.gradle/caches/transforms-3/49bd0999d1bd6955bbc9e4e9fa22d2b3/transformed/jetified-instabug-survey-10.8.1/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,119,201,282,334,389,444,503,564,616,681,752",
+                        "endColumns": "63,81,80,51,54,54,58,60,51,64,70,61",
+                        "endOffsets": "114,196,277,329,384,439,498,559,611,676,747,809"
+                    },
+                    "to": {
+                        "startLines": "19,20,21,39,40,41,42,43,44,45,46,47",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1113,1177,1259,2561,2613,2668,2723,2782,2843,2895,2960,3031",
+                        "endColumns": "63,81,80,51,54,54,58,60,51,64,70,61",
+                        "endOffsets": "1172,1254,1335,2608,2663,2718,2777,2838,2890,2955,3026,3088"
+                    }
+                },
+                {
+                    "source": "/Users/administrator/.gradle/caches/transforms-3/2ddb685ed011f58b64a72294741986c7/transformed/appcompat-1.1.0/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,125,196",
+                        "endColumns": "69,70,67",
+                        "endOffsets": "120,191,259"
+                    },
+                    "to": {
+                        "startLines": "3,4,5",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "107,177,248",
+                        "endColumns": "69,70,67",
+                        "endOffsets": "172,243,311"
+                    }
+                },
+                {
+                    "source": "/Users/administrator/.gradle/caches/transforms-3/154120d1f95eb95caf2e8bf8de28a8e8/transformed/jetified-instabug-core-10.8.1/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "107,168,232,285,347",
+                        "endColumns": "60,63,52,61,54",
+                        "endOffsets": "163,227,280,342,397"
+                    },
+                    "to": {
+                        "startLines": "6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "316,377,441,494,556",
+                        "endColumns": "60,63,52,61,54",
+                        "endOffsets": "372,436,489,551,606"
+                    }
+                },
+                {
+                    "source": "/Users/administrator/.gradle/caches/transforms-3/42a68f473d9a638bb74f7ffb8cf1c88f/transformed/jetified-instabug-bug-10.8.1/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,107,164,219,285,351,408,467,539,609",
+                        "endColumns": "51,56,54,65,65,56,58,71,69,62",
+                        "endOffsets": "102,159,214,280,346,403,462,534,604,667"
+                    },
+                    "to": {
+                        "startLines": "2,11,12,13,14,15,16,17,18,22",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,611,668,723,789,855,912,971,1043,1340",
+                        "endColumns": "51,56,54,65,65,56,58,71,69,62",
+                        "endOffsets": "102,663,718,784,850,907,966,1038,1108,1398"
+                    }
+                }
+            ]
+        }
+    ]
+}

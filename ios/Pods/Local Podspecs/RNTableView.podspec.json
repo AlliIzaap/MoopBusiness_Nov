@@ -1,0 +1,21 @@
+{
+  "name": "RNTableView",
+  "version": "3.1.0",
+  "authors": "Pavel Aksonov",
+  "summary": "Native iOS TableView wrapper for React Native",
+  "license": "ISC",
+  "homepage": "https://github.com/aksonov/react-native-tableview#readme",
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "git": "git+https://github.com/aksonov/react-native-tableview.git"
+  },
+  "source_files": "RNTableView/*.{h,m}",
+  "preserve_paths": "**/*.js",
+  "dependencies": {
+    "React": [
+
+    ]
+  }
+}

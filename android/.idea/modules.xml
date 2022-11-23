@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MoopBusiness.iml" filepath="$PROJECT_DIR$/.idea/modules/MoopBusiness.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MoopBusiness.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MoopBusiness.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2015434758/MoopBusiness.instabug-reactnative.iml" filepath="$PROJECT_DIR$/.idea/modules/-2015434758/MoopBusiness.instabug-reactnative.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1934003217/MoopBusiness.react-native-async-storage_async-storage.iml" filepath="$PROJECT_DIR$/.idea/modules/-1934003217/MoopBusiness.react-native-async-storage_async-storage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1257443548/MoopBusiness.react-native-community_async-storage.iml" filepath="$PROJECT_DIR$/.idea/modules/-1257443548/MoopBusiness.react-native-community_async-storage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/945014561/MoopBusiness.react-native-community_masked-view.iml" filepath="$PROJECT_DIR$/.idea/modules/945014561/MoopBusiness.react-native-community_masked-view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-756906683/MoopBusiness.react-native-community_netinfo.iml" filepath="$PROJECT_DIR$/.idea/modules/-756906683/MoopBusiness.react-native-community_netinfo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1344645935/MoopBusiness.react-native-firebase_app.iml" filepath="$PROJECT_DIR$/.idea/modules/1344645935/MoopBusiness.react-native-firebase_app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1037390038/MoopBusiness.react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/1037390038/MoopBusiness.react-native-gesture-handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1504644529/MoopBusiness.react-native-image-base64.iml" filepath="$PROJECT_DIR$/.idea/modules/1504644529/MoopBusiness.react-native-image-base64.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-331822608/MoopBusiness.react-native-image-picker.iml" filepath="$PROJECT_DIR$/.idea/modules/-331822608/MoopBusiness.react-native-image-picker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1147457084/MoopBusiness.react-native-push-notification.iml" filepath="$PROJECT_DIR$/.idea/modules/-1147457084/MoopBusiness.react-native-push-notification.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1467375738/MoopBusiness.react-native-reanimated.iml" filepath="$PROJECT_DIR$/.idea/modules/-1467375738/MoopBusiness.react-native-reanimated.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1150782399/MoopBusiness.react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/.idea/modules/1150782399/MoopBusiness.react-native-safe-area-context.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1430536553/MoopBusiness.react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/-1430536553/MoopBusiness.react-native-screens.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1562060172/MoopBusiness.react-native-svg.iml" filepath="$PROJECT_DIR$/.idea/modules/-1562060172/MoopBusiness.react-native-svg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1293444800/MoopBusiness.react-native-vector-icons.iml" filepath="$PROJECT_DIR$/.idea/modules/1293444800/MoopBusiness.react-native-vector-icons.iml" />
+    </modules>
+  </component>
+</project>

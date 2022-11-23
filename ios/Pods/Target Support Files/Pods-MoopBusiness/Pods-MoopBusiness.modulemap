@@ -1,0 +1,6 @@
+module Pods_MoopBusiness {
+  umbrella header "Pods-MoopBusiness-umbrella.h"
+
+  export *
+  module * { export * }
+}

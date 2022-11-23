@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="instabug_feature_rq_str_days_ago">
+        <item quantity="one">%d nappal ezelőtt</item>
+        <item quantity="other">%d nappal ezelőtt</item>
+    </plurals>
+    <plurals name="instabug_feature_rq_str_hours_ago">
+        <item quantity="one">%d órával ezelőtt</item>
+        <item quantity="other">%d órával ezelőtt</item>
+    </plurals>
+    <plurals name="instabug_feature_rq_str_minutes_ago">
+        <item quantity="one">%d perccel ezelőtt</item>
+        <item quantity="other">%d perccel ezelőtt</item>
+    </plurals>
+    <string name="IBGAskQuestionHint">Kérdezzen tőlünk bármit!</string>
+    <string name="IBGPromptOptionsReportBug">Hiba jelentése</string>
+    <string name="IBGReportBugHint">Kérjük, amennyire lehetséges, legyen részletes. Mire számított és mi történt helyette?</string>
+    <string name="IBGReproStepsDisclaimerBody">A probléma javítása érdekében az ön jelentése tartalmazni fogja a lépések listáját a probléma reprodukálásához.</string>
+    <string name="IBGReproStepsDisclaimerLink">Lista szerkesztése</string>
+    <string name="IBGReproStepsListEmptyStateLabel">Minden app képernyő törölve lett.</string>
+    <string name="IBGReproStepsListHeader">Az ön által meglátogatott app képernyőket csak arra használjuk fel, hogy reprodukálhassuk az ön által jelentett problémát.</string>
+    <string name="IBGReproStepsListItemName">Képernyő #</string>
+    <string name="IBGReproStepsListTitle">Meglátogatott képernyők</string>
+    <string name="IBGSuggestImprovementHint">Hogyan javíthatjuk az alkalmazás használatának élményét?</string>
+    <string msgid="7903180715631665059" name="abc_action_bar_home_description">"Ugrás a főoldalra"</string>
+    <string msgid="6794660482873516081" name="abc_action_bar_up_description">"Fel"</string>
+    <string msgid="1155814932213556626" name="abc_action_menu_overflow_description">"További lehetőségek"</string>
+    <string msgid="2571498368472823490" name="abc_action_mode_done">"Kész"</string>
+    <string msgid="3732416590524162402" name="abc_activity_chooser_view_see_all">"Az összes megtekintése"</string>
+    <string msgid="1798588241954930982" name="abc_activitychooserview_choose_application">"Válasszon alkalmazást"</string>
+    <string msgid="3403923230105792483" name="abc_capital_off">"KI"</string>
+    <string msgid="7831734969929204599" name="abc_capital_on">"BE"</string>
+    <string msgid="5725160506500770567" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="944415252197684443" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="129742188101734366" name="abc_menu_delete_shortcut_label">"Delete"</string>
+    <string msgid="6840127756824236027" name="abc_menu_enter_shortcut_label">"Enter"</string>
+    <string msgid="4974283687810130415" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="8046416353848716905" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="3271697756921353410" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="2304645930658438191" name="abc_menu_space_shortcut_label">"Szóköz"</string>
+    <string msgid="8327365089695024394" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="3570106412128999382" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="940844115270746197" name="abc_search_hint">"Keresés…"</string>
+    <string msgid="1769270744562318534" name="abc_searchview_description_clear">"Lekérdezés törlése"</string>
+    <string msgid="908784302972860853" name="abc_searchview_description_query">"Keresési lekérdezés"</string>
+    <string msgid="5466662225065974044" name="abc_searchview_description_search">"Keresés"</string>
+    <string msgid="8203855622131699655" name="abc_searchview_description_submit">"Lekérdezés küldése"</string>
+    <string msgid="3478748990613108725" name="abc_searchview_description_voice">"Hangalapú keresés"</string>
+    <string msgid="2650565705514630347" name="abc_shareactionprovider_share_with">"Megosztás a következővel:"</string>
+    <string msgid="9009661856846212431" name="abc_shareactionprovider_share_with_application">"Megosztás a következő alkalmazással: <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="6389460216547290468" name="abc_toolbar_collapse_description">"Összecsukás"</string>
+    <string name="add_feature">Írja le gondolatait</string>
+    <string name="askAQuestionHeader">Kérdezzen</string>
+    <string name="close">Bezárás</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Engedélyezés</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">A(z) %1$s alkalmazás csak akkor működik, ha  engedélyezi a Google Play-szolgáltatásokat.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Google Play-szolgáltatások engedélyezése</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Telepítés</string>
+    <string name="common_google_play_services_install_text">A(z) %1$s alkalmazás nem fut a Google Play-szolgáltatások nélkül, amelyek hiányoznak az eszközről.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">A Google Play-szolgáltatások beszerzése</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play-szolgáltatások elérhetősége</string>
+    <string name="common_google_play_services_notification_ticker">Google Play-szolgáltatások – hiba</string>
+    <string name="common_google_play_services_unknown_issue">A(z) %1$s alkalmazás problémába ütközött a Google Play-szolgáltatások használata során. Próbálkozzon újra.</string>
+    <string name="common_google_play_services_unsupported_text">A(z) %1$s alkalmazás nem fut a Google Play-szolgáltatások nélkül, amelyeket eszköze nem támogat.</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Frissítés</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">A(z) %1$s alkalmazás csak akkor fog működni, ha frissíti a Google Play-szolgáltatásokat.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">A Google Play-szolgáltatások frissítése</string>
+    <string name="common_google_play_services_updating_text">A(z) %1$s alkalmazás nem fut a Google Play-szolgáltatások nélkül, amelyek frissítése folyamatban van.</string>
+    <string name="common_google_play_services_wear_update_text">A Google Play-szolgáltatások új verziójára van szükség. A szolgáltatás hamarosan frissíti önmagát.</string>
+    <string name="common_open_on_phone">Megnyitás a telefonon</string>
+    <string name="common_signin_button_text">Bejelentkezés</string>
+    <string name="common_signin_button_text_long">Bejelentkezés Google-fiókkal</string>
+    <string name="fcm_fallback_notification_channel_label">Egyéb</string>
+    <string name="feature_request_close_dialog_message">Biztos törölni szeretné?</string>
+    <string name="feature_request_comments">Hozzászólások</string>
+    <string name="feature_request_comments_count">%ld hozzászólás</string>
+    <string name="feature_request_go_back">Vissza</string>
+    <string name="feature_request_leave_comment">Legyen az első hozzászóló.</string>
+    <string name="feature_request_owner">%@ néven</string>
+    <string name="feature_request_owner_anonymous">névtelenként</string>
+    <string name="feature_request_owner_anonymous_word">névtelen</string>
+    <string name="feature_request_status_changed_to">Állapot következőre megváltozott:</string>
+    <string name="feature_request_str_add_comment_comment_empty">Kérjük, érvényes hozzászólást írjon.</string>
+    <string name="feature_request_str_add_comment_disclaimer">Szükségünk lesz az e-mail-címére a frissítések értesítéséhez.</string>
+    <string name="feature_request_str_add_comment_error">Hiba történt a hozzászólás hozzáadásakor.</string>
+    <string name="feature_request_str_add_comment_valid_email">Kérjük, érvényes e-mail-címet adjon meg.</string>
+    <string name="feature_request_str_add_feature_error">Hiba történt a funkció hozzáadásakor.</string>
+    <string name="feature_request_str_adding_your_comment">Hozzászólás hozzáadása</string>
+    <string name="feature_request_str_just_now">Éppen most</string>
+    <string name="feature_request_str_less">Kevesebb</string>
+    <string name="feature_request_str_more">Több</string>
+    <string name="feature_request_str_post_comment">Közzétesz</string>
+    <string name="feature_request_str_thanks">Köszönjük visszajelzését!</string>
+    <string name="feature_request_str_thanks_msg">Tájékoztatni fogjuk a frissítésekkel kapcsolatban</string>
+    <string name="feature_request_votes_count">%ld szavazat</string>
+    <string name="feature_requests_details">Funkció részletei</string>
+    <string name="feature_requests_error_state_sub_title">Ellenőrizze a csatlakozását és próbálkozzon újra.</string>
+    <string name="feature_requests_error_state_title">Valamilyen hiba történt.</string>
+    <string name="feature_requests_new_adding_your_suggestion">Javaslata hozzáadása.</string>
+    <string name="feature_requests_new_appbar_title">Funkció hozzáadása</string>
+    <string name="feature_requests_new_bottom_hint">Szükségünk lesz az e-mailjére, hogy tájékoztathassuk a frissítésekről.</string>
+    <string name="feature_requests_new_description">Leírás</string>
+    <string name="feature_requests_new_email">E-mail</string>
+    <string name="feature_requests_new_err_msg_email">kérjük, érvényes e-mailt adjon meg</string>
+    <string name="feature_requests_new_err_msg_required">A cím mező kötelező</string>
+    <string name="feature_requests_new_name">Név</string>
+    <string name="feature_requests_new_positive_button">Hozzáadás</string>
+    <string name="feature_requests_new_title">Cím</string>
+    <string name="feature_requests_new_toast_message">Kérjük, érthető címet és leírást írjon.</string>
+    <string name="features_rq_main_fragment_tab1">Összes</string>
+    <string name="features_rq_main_fragment_tab2">Enyém</string>
+    <string name="ib_alert_phone_number_msg">A telefonszám opcionális, és csak hibaelhárítási célokból fogjuk használni, mint ennél a problémánál.</string>
+    <string name="ib_announcement_redirect_error">Nem lehet átirányítani a hivatkozáshoz</string>
+    <string name="ib_bug_report_bug_description">Az alkalmazásban hiba van, vagy valami nem rendeltetésszerűen működik</string>
+    <string name="ib_bug_report_feedback_description">Új ötletek, javasolt fejlesztések az alkalmazással kapcsolatban</string>
+    <string name="ib_bug_report_question_description">Súgó, támogatás és egyéb megkeresések</string>
+    <string name="ib_error_phone_number">Kérjük, érvényes USA telefonszámot adjon meg.</string>
+    <string name="ib_feature_rq_status_completed">Befejezve</string>
+    <string name="ib_feature_rq_status_inprogress">Elkezdve</string>
+    <string name="ib_feature_rq_status_maybe_later">Talán később</string>
+    <string name="ib_feature_rq_status_open">Közzétéve</string>
+    <string name="ib_feature_rq_status_planned">Tervezve</string>
+    <string name="ib_feature_rq_str_add_your_idea">Adja hozzá ötletét</string>
+    <string name="ib_feature_rq_str_completed_features">%d befejezett funkció</string>
+    <string name="ib_feature_rq_str_load_more_fail_txt">Adatok betöltése nem sikerült</string>
+    <string name="ib_feature_rq_str_load_more_loading_txt">Frissítés…</string>
+    <string name="ib_feature_rq_str_no_ideas_are_added_yet">Még nincs hozzáadva ötlet.</string>
+    <string name="ib_feature_rq_str_no_results">Nincs találat</string>
+    <string name="ib_feature_rq_str_pull_to_refresh">Húzza a frissítéshez</string>
+    <string name="ib_feature_rq_str_release_to_refresh">Engedje el a frissítéshez</string>
+    <string name="ib_feature_rq_str_search">Keresés</string>
+    <string name="ib_feature_rq_str_votes">Szavazatok</string>
+    <string name="ib_fr_request_feature_description">Új funkcióra szóló javaslat vagy szavazat</string>
+    <string name="ib_hint_phone_number">Adja meg a telefonszámát</string>
+    <string name="ib_str_beta_done">Kész</string>
+    <string name="ib_str_beta_welcome_finishing_step_content">Maradjon a legfrissebb verziónál, hogy elérjen minden hibajavítás és funkciót.</string>
+    <string name="ib_str_beta_welcome_finishing_step_title">Maradjon naprakész.</string>
+    <string name="ib_str_beta_welcome_how_to_report_step_content_floating">A lebegőgombra kattintva jelenthet problémát vagy javasolhat fejlesztést.</string>
+    <string name="ib_str_beta_welcome_how_to_report_step_content_screenshot">Képernyőkép készítésével jelenthet problémát vagy javasolhat fejlesztést.</string>
+    <string name="ib_str_beta_welcome_how_to_report_step_content_shake">Készüléke megrázásával jelenthet hibát vagy javasolhat fejlesztést.</string>
+    <string name="ib_str_beta_welcome_how_to_report_step_content_swipe">Végezzen kétujjas suhintást jobbról balra hibajelentéshez vagy visszajelzéshez.</string>
+    <string name="ib_str_beta_welcome_how_to_report_step_title">Hogyan kell hibát jelenteni?</string>
+    <string name="ib_str_beta_welcome_step_content">Köszönjük, hogy segít az appunk fejlesztésében. Köszönjük visszajelzéseit és hibajelentéseit.</string>
+    <string name="ib_str_beta_welcome_step_title">Üdvözöljük a béta appunkban</string>
+    <string name="ib_str_live_welcome_message_title">Mindig örömmel hallgatjuk meg véleményét.</string>
+    <string name="ibg_screen_recording_notification_title">Képernyő felvétel aktív</string>
+    <string name="instabug_alert_dialog_no">NEM</string>
+    <string name="instabug_alert_dialog_yes">IGEN</string>
+    <string name="instabug_audio_recorder_permission_denied">Hangfelvétel engedély elutasítva</string>
+    <string name="instabug_custom_survey_thanks_subtitle">Véleménye hatással lesz a jobb frissítésekhez a jövőben.</string>
+    <string name="instabug_custom_survey_thanks_title">Köszönjük!</string>
+    <string name="instabug_err_invalid_comment">Kérjük, érvényes hozzászólást írjon</string>
+    <string name="instabug_err_invalid_email">Kérjük, érvényes e-mailt adjon meg</string>
+    <string name="instabug_err_invalid_extra_field">Hiányos adat: %1$s kötelező!</string>
+    <string name="instabug_external_storage_permission_denied">Tárhelyengedély elutasítva</string>
+    <string name="instabug_store_rating_survey_thanks_subtitle">A visszajelzése segítségével jobb alkalmazást tudunk fejleszteni.</string>
+    <string name="instabug_store_rating_survey_thanks_title">@string/instabug_custom_survey_thanks_title</string>
+    <string name="instabug_str_action_submit">Elküldés</string>
+    <string name="instabug_str_actual_results">Valós eredmények</string>
+    <string name="instabug_str_add_attachment">Melléklet hozzáadása</string>
+    <string name="instabug_str_add_photo">Kép kiválasztása galériából</string>
+    <string name="instabug_str_alert_message_max_attachments">Távolítson el egy meglévő mellékletet, hogy újat adhasson hozzá.</string>
+    <string name="instabug_str_alert_title_max_attachments">Nem lehet hozzáadni a mellékletet</string>
+    <string name="instabug_str_annotate">Rajzoljon a képernyőképre</string>
+    <string name="instabug_str_audio">Hang</string>
+    <string name="instabug_str_bugreport_dismiss_cancel">Mégse</string>
+    <string name="instabug_str_bugreport_dismiss_discard">Elvetés</string>
+    <string name="instabug_str_bugreport_dismiss_warning_message">Biztos, hogy elveti ezt a jelentést?</string>
+    <string name="instabug_str_bugreport_dismiss_warning_title">Elveti a jelentést?</string>
+    <string name="instabug_str_bugreport_file_size_limit_warning_message">Kérjük, töltsön fel %d MB-nál kisebb fájlt</string>
+    <string name="instabug_str_bugreport_file_size_limit_warning_title">A fájl mérete túl nagy.</string>
+    <string name="instabug_str_cancel">Mégse</string>
+    <string name="instabug_str_capturing_screenshot_error">Kevés memória miatt nem lehet rögzíteni a képernyőképet</string>
+    <string name="instabug_str_conversations">Beszélgetések</string>
+    <string name="instabug_str_dialog_message_preparing">Előkészítés…</string>
+    <string name="instabug_str_dismiss">Elutasítás</string>
+    <string name="instabug_str_email_hint">Adja meg az e-mailjét</string>
+    <string name="instabug_str_error_survey_without_answer">A felmérés válasz nélkül nem küldhető el.</string>
+    <string name="instabug_str_expected_results">Várt eredmények</string>
+    <string name="instabug_str_features_request_header">Funkció kérelmek</string>
+    <string name="instabug_str_features_request_ptr_loading_list_text">Örömmel halljuk a véleményét!</string>
+    <string name="instabug_str_feedback_header">Javasoljon fejlesztést</string>
+    <string name="instabug_str_hint_enter_your_answer">Adja meg a válaszát</string>
+    <string name="instabug_str_hold_to_record">Nyomja meg letartva a rögzítéshez</string>
+    <string name="instabug_str_image">Kép</string>
+    <string name="instabug_str_image_loading_error">Nem lehet betölteni a képet</string>
+    <string name="instabug_str_invocation_dialog_title">Segítségre van szüksége?</string>
+    <string name="instabug_str_messages">Üzenetek</string>
+    <string name="instabug_str_notification_title">"%1$s csapat"</string>
+    <string name="instabug_str_notifications_body">%1$d új üzenet tőle: %2$s és másoktól</string>
+    <string name="instabug_str_ok">OK</string>
+    <string name="instabug_str_pick_media_chooser_title">Fájl kiválasztása</string>
+    <string name="instabug_str_pick_media_from_gallery">Fájl kiválasztása galériából</string>
+    <string name="instabug_str_please_wait">Kérjük, várjon egy percet</string>
+    <string name="instabug_str_powered_by_instabug">Szolgáltatja az Instabug</string>
+    <string name="instabug_str_record_video">Készítsen képernyőfelvételt</string>
+    <string name="instabug_str_release_stop_record">Engedje el a csatoláshoz</string>
+    <string name="instabug_str_reply">Válasz</string>
+    <string name="instabug_str_request_feature">Funkció kérése</string>
+    <string name="instabug_str_sending_message_hint">Írja be a válaszát</string>
+    <string name="instabug_str_shake_hint"><![CDATA[Szeretnénk hallani visszajelzését<br/><b>Rázza meg</b> készülékét, ha beszélni szeretne velünk.]]></string>
+    <string name="instabug_str_steps_to_reproduce">Lépések a reprodukáláshoz</string>
+    <string name="instabug_str_success_note">Megkaptuk visszajelzését.\nKöszönjük, hogy segít jobbá tenni a %s.</string>
+    <string name="instabug_str_survey_next">Következő</string>
+    <string name="instabug_str_swipe_hint"><![CDATA[Szeretnénk hallani visszajelzését<br /><b>Suhintson 2 ujjal</b>, ha beszélni szeretne velünk.]]></string>
+    <string name="instabug_str_take_screenshot">Készítsen képernyőképet</string>
+    <string name="instabug_str_talk_to_us">Beszéljen velünk</string>
+    <string name="instabug_str_thank_you">Köszönjük!</string>
+    <string name="instabug_str_video">Videó</string>
+    <string name="instabug_str_video_encoder_busy">A videó kódoló éppen egy másik videó kódolását végzi</string>
+    <string name="instabug_str_video_encoding_error">Kevés memória miatt nem lehet kódolni a videót</string>
+    <string name="instabug_str_video_length_limit_warning_message">Kérjük, töltsön fel egy 1 percesnél rövidebb időtartamú videót.</string>
+    <string name="instabug_str_video_length_limit_warning_title">A videó időtartama túl hosszú</string>
+    <string name="instabug_str_video_player">Videólejátszó</string>
+    <string name="instabug_str_video_recording_hint">Nyomja meg a felvétel gombot, amikor kész</string>
+    <string name="instabug_survey_welcome_button">"Rajta"</string>
+    <string name="instabug_survey_welcome_feedback">"Szeretnénk hallani Ön felől"</string>
+    <string name="instabug_survey_welcome_feedback_msg">Segítene nekünk ennek a rövid felmérésnek a kitöltésével?</string>
+    <string msgid="730395136688082741" name="search_menu_title">"Keresés"</string>
+    <string name="sort_by_recently_updated">Friss</string>
+    <string name="sort_by_top_rated">Legjobb értékelésű</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="surveys_nps_btn_rate_us">Értékeljen minket a Play Áruházban</string>
+    <string name="surveys_nps_less_likely">Kevésbé valószínű</string>
+    <string name="surveys_nps_rate_us_message">Köszönjük a szeretetét</string>
+    <string name="surveys_nps_very_likely">Nagyon valószínű</string>
+</resources>

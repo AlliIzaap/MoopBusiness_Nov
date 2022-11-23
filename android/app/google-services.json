@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "802354463503",
+    "project_id": "moopbusiness-ed828",
+    "storage_bucket": "moopbusiness-ed828.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:802354463503:android:47913af497bbeb36f2f47a",
+        "android_client_info": {
+          "package_name": "com.moopbusiness"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "802354463503-e8to9m0c4qv142roa8qi9bgarigjrkhe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5-aISmLrHodjfezCpQPUfopA_V5HLIcg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "802354463503-e8to9m0c4qv142roa8qi9bgarigjrkhe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
